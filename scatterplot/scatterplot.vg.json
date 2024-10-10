@@ -4,18 +4,26 @@
     "data": {
       "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/scatterplot.csv"
     },
-    "mark": "point",
+    "mark": {"type":"point","filled":true},
     "encoding": {
       "x": {
         "field": "Resilience Score 2023",
         "type": "quantitative",
-        "scale": {"zero": false}
+        "scale": {"zero": false, "domain": [0, 9]}
       },
       "y": {
         "field": "Criminality Score 2023",
         "type": "quantitative",
-        "scale": {"zero": false}
+        "scale": {"zero": false, "domain": [0, 9]}
       },
-      "color": {"field": "Continent", "type": "nominal"}  }
+      "color": {"field": "Continent", "type": "nominal"},
+      "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "Resilience Score 2023", "type": "quantitative", "title": "Resilience Score"},
+      {"field": "Criminality Score 2023", "type": "quantitative", "title": "Criminality Score"},
+      {"field": "Continent", "type": "nominal", "title": "Continent"}
+
+    ]
   }
+}
   
