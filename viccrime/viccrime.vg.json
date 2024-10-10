@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300, "height": 200,
+  "data": {"url": "viccrimetype.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year", 
+      "type": "ordinal",
+      "axis": {"format": "%Y", "title": "Year"}
+    },
+    "y": {
+      "aggregate": "sum", 
+      "field": "Offence Count",
+      "axis": {"title": "Total Offence Count"}
+    },
+    "color": {
+      "field": "Offence Division",
+      "type": "nominal",
+      "scale": {"scheme": "category20b"},
+      "legend": {"title": "Offence Division"}
+    }
+  }
+}
