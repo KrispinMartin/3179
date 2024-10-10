@@ -1,0 +1,89 @@
+﻿Year,State,Total Prisoners,Male Imprisonment Rate,Female Imprisonment Rate
+2013,New South Wales,"9,899",328.2,23.4
+2014,New South Wales,"10,567",344.7,24.3
+2015,New South Wales,"11,797",377.2,28.7
+2016,New South Wales,"12,629",397.5,31.0
+2017,New South Wales,"13,149",406.0,32.3
+2018,New South Wales,"13,740",416.0,34.0
+2019,New South Wales,"13,458",404.0,29.7
+2020,New South Wales,"12,730",379.5,25.7
+2021,New South Wales,"13,126",390.9,26.7
+2022,New South Wales,"12,372",370.1,25.4
+2023,New South Wales,"12,316",359.2,24.8
+2013,Victoria,"5,340",227.3,16.5
+2014,Victoria,"6,111",256.2,17.5
+2015,Victoria,"6,219",256.1,17.8
+2016,Victoria,"6,522",263.7,17.8
+2017,Victoria,"7,149",276.2,20.2
+2018,Victoria,"7,666",288.2,21.9
+2019,Victoria,"8,101",297.8,22.0
+2020,Victoria,"7,149",261.9,15.0
+2021,Victoria,"7,248",267.1,15.3
+2022,Victoria,"6,569",245.6,12.9
+2023,Victoria,"6,440",235.6,11.0
+2013,Queensland,"6,079",311.4,29.5
+2014,Queensland,"7,047",353.5,36.2
+2015,Queensland,"7,318",361.9,37.7
+2016,Queensland,"7,746",382.0,35.8
+2017,Queensland,"8,476",415.1,36.0
+2018,Queensland,"8,840",419.8,42.2
+2019,Queensland,"8,771",415.0,42.8
+2020,Queensland,"8,657",406.6,37.7
+2021,Queensland,"9,952",460.7,45.2
+2022,Queensland,"9,376",424.6,40.7
+2023,Queensland,"10,226",449.2,45.6
+2013,South Australia,"2,269",329.2,22.0
+2014,South Australia,"2,490",357.4,24.2
+2015,South Australia,"2,732",391.8,23.5
+2016,South Australia,"2,948",417.4,27.6
+2017,South Australia,"3,032",425.2,30.6
+2018,South Australia,"2,991",414.5,31.2
+2019,South Australia,"2,862",394.6,27.9
+2020,South Australia,"2,986",403.7,32.8
+2021,South Australia,"3,105",419.1,33.9
+2022,South Australia,"3,049",402.4,28.9
+2023,South Australia,"2,995",385.5,29.9
+2013,Western Australia,"4,923",461.7,47.0
+2014,Western Australia,"5,241",477.6,47.9
+2015,Western Australia,"5,555",500.1,52.9
+2016,Western Australia,"6,329",562.1,63.3
+2017,Western Australia,"6,743",615.3,68.7
+2018,Western Australia,"6,865",618.9,73.5
+2019,Western Australia,"6,943",623.0,70.2
+2020,Western Australia,"6,770",597.0,69.0
+2021,Western Australia,"6,716",596.9,61.4
+2022,Western Australia,"6,276",537.1,52.0
+2023,Western Australia,"6,718",549.8,59.8
+2013,Tasmania,481,226.9,18.9
+2014,Tasmania,451,210.5,16.3
+2015,Tasmania,519,246.8,15.7
+2016,Tasmania,569,252.2,30.7
+2017,Tasmania,596,280.1,18.2
+2018,Tasmania,614,286.6,16.5
+2019,Tasmania,693,308.4,25.6
+2020,Tasmania,668,292.0,27.0
+2021,Tasmania,642,279.2,24.6
+2022,Tasmania,630,261.0,18.5
+2023,Tasmania,751,312.3,20.1
+2013,Northern Territory,"1,434","1,439.3",129.7
+2014,Northern Territory,"1,492","1,448.0",127.9
+2015,Northern Territory,"1,593","1,508.5",175.5
+2016,Northern Territory,"1,666","1,604.5",147.6
+2017,Northern Territory,"1,601","1,566.1",125.9
+2018,Northern Territory,"1,758","1,724.7",129.7
+2019,Northern Territory,"1,731","1,708.3",128.5
+2020,Northern Territory,"1,634","1,631.6",104.4
+2021,Northern Territory,"1,799","1,770.3",142.3
+2022,Northern Territory,"1,934","1,908.4",122.3
+2023,Northern Territory,"2,106","2,075.7",120.8
+2013,Australian Capital Territory,352,229.6,9.9
+2014,Australian Capital Territory,395,248.5,15.7
+2015,Australian Capital Territory,396,252.7,13.6
+2016,Australian Capital Territory,441,273.8,19.8
+2017,Australian Capital Territory,449,261.0,25.8
+2018,Australian Capital Territory,492,287.3,22.2
+2019,Australian Capital Territory,474,274.9,19.5
+2020,Australian Capital Territory,449,253.9,22.8
+2021,Australian Capital Territory,379,217.3,12.2
+2022,Australian Capital Territory,381,206.4,11.5
+2023,Australian Capital Territory,375,196.4,12.8
