@@ -15,6 +15,20 @@
         "fields": ["Continent"]
       },
       "bind": "legend"
+    },
+    {
+      "name": "search_country",
+      "bind": {
+        "input": "search",
+        "placeholder": "Australia",
+        "name": "Find a Country "
+      },
+      "value": ""
+      }
+  ],
+  "transform": [
+    {
+      "filter": "search_country == '' || indexof(lower(datum.Country), lower(search_country)) >= 0"
     }
   ],
   "mark": { "type": "point", "filled": true },
