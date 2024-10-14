@@ -1,31 +1,76 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A scatterplot showing criminality vs. resilience index.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/scatterplot.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing criminality vs. resilience index.",
+  "width": 500,
+  "height": 400,
+  "title": "Resilience vs. Criminality around the World",
+  "data": {
+    "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/scatterplot.csv"
+  },
+  "params": [
+    {
+      "name": "continent_highlight",
+      "select": {
+        "type": "point",
+        "fields": ["Continent"]
+      },
+      "bind": "legend"
+    }
+  ],
+  "mark": { "type": "point", "filled": true },
+  "encoding": {
+    "x": {
+      "field": "Resilience Score 2023",
+      "type": "quantitative",
+      "axis": { "tickCount": 5 },
+      "scale": { "zero": false, "domain": [0, 9] }
     },
-    "mark": {"type":"point","filled":true},
-    "encoding": {
-      "x": {
+    "y": {
+      "field": "Criminality Score 2023",
+      "type": "quantitative",
+      "axis": { "tickCount": 5 },
+      "scale": { "zero": false, "domain": [0, 9] }
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Asia",
+          "Europe",
+          "Africa",
+          "North America",
+          "South America",
+          "Oceania"
+        ],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#83BCDE",
+          "#2D7CB9",
+          "#a65628"
+        ]
+      }
+    },
+    "opacity": {
+      "condition": { "param": "continent_highlight", "value": 0.8 },
+      "value": 0.1
+    },
+    "size": { "value": 200 },
+    "tooltip": [
+      { "field": "Country", "type": "nominal", "title": "Country" },
+      {
         "field": "Resilience Score 2023",
         "type": "quantitative",
-        "scale": {"zero": false, "domain": [0, 9]}
+        "title": "Resilience Score"
       },
-      "y": {
+      {
         "field": "Criminality Score 2023",
         "type": "quantitative",
-        "scale": {"zero": false, "domain": [0, 9]}
+        "title": "Criminality Score"
       },
-      "color": {
-        "field": "Continent", 
-        "type": "nominal"},
-      "tooltip": [
-      {"field": "Country", "type": "nominal", "title": "Country"},
-      {"field": "Resilience Score 2023", "type": "quantitative", "title": "Resilience Score"},
-      {"field": "Criminality Score 2023", "type": "quantitative", "title": "Criminality Score"},
-      {"field": "Continent", "type": "nominal", "title": "Continent"}
-
+      { "field": "Continent", "type": "nominal", "title": "Continent" }
     ]
   }
 }
-  
