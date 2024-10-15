@@ -12,7 +12,7 @@
             "min": 2013,
             "max": 2023,
             "step": 1,
-            "name": "Select Year "
+            "name": "Change Year "
         }
         }
     ],
@@ -41,8 +41,8 @@
     {
       "mark":{
         "type": "geoshape",
-        "stroke": "white",        
-        "strokeWidth": 2     
+        "stroke": "black",
+        "strokeWidth": 1
       },
       "encoding": {
         "color": {
@@ -54,9 +54,9 @@
         },
         "tooltip": [
           { "field": "properties.name", "type": "nominal", "title": "State" },
-          { "field": "Male Imprisonment Rate", "type": "quantitative", "title": "Male Imprisonment per 100,000" },
-          { "field": "Female Imprisonment Rate", "type": "quantitative", "title":"Female Imprisonment per 100,000" },
-          { "field": "Total Prisoners", "type": "quantitative" },
+          { "field": "Male Imprisonment Rate", "type": "quantitative", "title": "Male Prisoners per 100,000", "format":","},
+          { "field": "Female Imprisonment Rate", "type": "quantitative", "title": "Female Prisoners per 100,000", "format":"," },
+          { "field": "Total Prisoners", "type": "quantitative", "format":","},
           { "field": "Year", "type": "quantitative" }
         ]
       }
