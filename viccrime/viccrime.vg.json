@@ -1,24 +1,19 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300, "height": 200,
-  "data": {"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencebydivyear.csv"},
-  "mark": "area",
-  "encoding": {
-    "x": {
-      "field": "Year", 
-      "type": "ordinal",
-      "axis": {"format": "%Y", "title": "Year"}
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "data": {"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencebydivyear.csv"},
+    "mark":{"type": "area", "line": true, "point": true},
+    "encoding": {
+      "y": {"aggregate":"sum","field": "Total Offences"},
+      "x": {"field": "Year"},
+      "color": {
+        "field": "Offence Division",
+        "scale": {
+        "range": ["#91bfdb", "#762a83", "#c51b7d", "#4d9221", "#01665e", "#8c510a"]
+      }
     },
-    "y": {
-      "aggregate": "sum", 
-      "field": "Offence Count",
-      "axis": {"title": "Total Offence Count"}
-    },
-    "color": {
-      "field": "Offence Division",
-      "type": "nominal",
-      "scale": {"scheme": "category20b"},
-      "legend": {"title": "Offence Division"}
+      "opacity": {"value": 0.6}
     }
   }
-}
+  
