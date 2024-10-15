@@ -37,14 +37,14 @@ Americas,South America,Chile,4.60,5.18
 Asia,Eastern Asia,China,6.01,6.37
 Americas,South America,Colombia,7.66,7.75
 Africa,Southern Africa,Comoros,3.86,3.92
-Africa,Central Africa,"Congo, Dem. Rep.",7.75,7.35
-Africa,Central Africa,"Congo, Rep.",5.03,4.78
+Africa,Central Africa,Dem. Rep. Congo,7.75,7.35
+Africa,Central Africa,Congo,5.03,4.78
 Americas,Central America,Costa Rica,4.99,5.53
 Africa,West Africa,Côte d'Ivoire,6.15,6.02
 Europe,Central & Eastern Europe,Croatia,5.06,5.15
 Americas,Caribbean ,Cuba,3.44,3.37
 Europe,Southern Europe,Cyprus,4.19,4.43
-Europe,Central & Eastern Europe,Czech Republic,4.63,4.68
+Europe,Central & Eastern Europe,Czechia,4.63,4.68
 Europe,Northern Europe,Denmark,3.86,4.02
 Africa,East Africa,Djibouti,3.99,4.65
 Americas,Caribbean ,Dominica,2.63,2.63
@@ -52,7 +52,7 @@ Americas,Caribbean ,Dominican Republic,5.15,5.02
 Americas,South America,Ecuador,6.25,7.07
 Africa,North Africa,Egypt,5.16,5.05
 Americas,Central America,El Salvador,5.94,5.92
-Africa,Central Africa,Equatorial Guinea,4.11,4.38
+Africa,Central Africa,Eq. Guinea,4.11,4.38
 Africa,East Africa,Eritrea,4.34,3.97
 Europe,Northern Europe,Estonia,3.60,4.25
 Africa,Southern Africa,Eswatini,3.63,4.38
@@ -88,8 +88,8 @@ Asia,Western Asia,Jordan,4.71,4.93
 Asia,Central Asia and the Caucasus,Kazakhstan,4.26,4.47
 Africa,East Africa,Kenya,6.95,7.02
 Oceania,Melanesia,Kiribati,2.35,2.45
-Asia,Eastern Asia,"Korea, DPR",4.78,4.82
-Asia,Eastern Asia,"Korea, Rep.",4.91,4.43
+Asia,Eastern Asia,North Korea,4.78,4.82
+Asia,Eastern Asia,South Korea,4.91,4.43
 Asia,Western Asia,Kuwait,5.14,5.20
 Asia,Central Asia and the Caucasus,Kyrgyzstan,5.33,5.32
 Asia,South-Eastern Asia,Laos,5.51,6.12
@@ -111,7 +111,7 @@ Oceania,Micronesia,Marshall Islands,2.31,2.52
 Africa,North Africa,Mauritania,4.38,4.38
 Africa,Southern Africa,Mauritius,4.51,4.37
 Americas,Central America,Mexico,7.56,7.57
-Oceania,Micronesia,Micronesia (Federated States of),3.30,3.00
+Oceania,Micronesia,Micronesia,3.30,3.00
 Europe,Central & Eastern Europe,Moldova,4.45,5.60
 Europe,Southern Europe,Monaco,2.43,2.58
 Asia,Eastern Asia,Mongolia,4.01,4.12
@@ -145,7 +145,7 @@ Europe,Central & Eastern Europe,Russia,6.24,6.87
 Africa,Central Africa,Rwanda,3.68,3.60
 Oceania,Polynesia,Samoa,2.04,2.43
 Europe,Southern Europe,San Marino,3.01,3.48
-Africa,Central Africa,Sao Tome and Principe,1.78,1.70
+Africa,Central Africa,São Tomé and Principe,1.78,1.70
 Asia,Western Asia,Saudi Arabia,6.01,6.23
 Africa,West Africa,Senegal,4.81,5.52
 Europe,Central & Eastern Europe,Serbia,6.21,6.22
@@ -154,15 +154,15 @@ Africa,West Africa,Sierra Leone,5.40,4.95
 Asia,South-Eastern Asia,Singapore,3.13,3.47
 Europe,Central & Eastern Europe,Slovakia,4.69,4.72
 Europe,Central & Eastern Europe,Slovenia,4.29,4.37
-Oceania,Melanesia,Solomon Islands,4.15,4.40
+Oceania,Melanesia,Solomon Is.,4.15,4.40
 Africa,East Africa,Somalia,5.79,6.13
 Africa,Southern Africa,South Africa,6.63,7.18
 Africa,East Africa,South Sudan,6.34,6.32
 Europe,Southern Europe,Spain,5.78,5.90
 Asia,Southern Asia,Sri Lanka,4.64,4.92
 Americas,Caribbean ,St. Kitts and Nevis,4.10,3.52
-Americas,Caribbean ,St. Lucia,4.09,3.53
-Americas,Caribbean ,St. Vincent and the Grenadines,3.30,3.08
+Americas,Caribbean ,Saint Lucia,4.09,3.53
+Americas,Caribbean ,St. Vin. and Gren.",3.30,3.08
 Africa,East Africa,Sudan,6.46,6.37
 Americas,South America,Suriname,4.90,4.77
 Europe,Northern Europe,Sweden,4.56,4.70
