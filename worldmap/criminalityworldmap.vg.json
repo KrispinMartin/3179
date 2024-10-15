@@ -5,8 +5,8 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
-      "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
-      "format": {"type": "topojson", "feature": "ne_10m"}
+      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_10m.topojson",
+      "format": {"type": "topojson", "feature": "Admin-0 country"}
     },
 
     "transform": [
