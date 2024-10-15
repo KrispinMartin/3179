@@ -15,7 +15,7 @@
     ],
     "mark":{"type": "area", "line": true, "point": true},
     "encoding": {
-      "y": {"aggregate":"sum","field": "Total Offences"},
+      "y": {"aggregate":"sum","field": "Total Offences","title":"Number of Offences"},
       "x": {"field": "Year"},
       "color": {
         "field": "Offence Division",
@@ -26,7 +26,18 @@
         "opacity": {
         "condition": { "param": "division_selector", "value": 0.7 },
         "value": 0.2
-      }
+      },
+      "tooltip": [
+        { "field": "Offence Division", "type": "nominal"},
+        {
+          "field": "Total Offences",
+          "type": "quantitative", "format": ","
+        },
+        {
+          "field": "Year",
+          "type": "quantitative"
+        }
+          ]
     }
   }
   
