@@ -76,7 +76,7 @@
           {
             "type": "group",
             "name": "categories",
-            "zindex": 1,
+            "zindex": 2,
             "from": {
               "facet": {"data": "table", "name": "facet", "groupby": ["Country"]}
             },
@@ -104,6 +104,7 @@
             {
               "type": "symbol",  
               "from": {"data": "facet"},
+              "zindex": 4,
               "encode": {
                 "enter": {
                   "x": {
