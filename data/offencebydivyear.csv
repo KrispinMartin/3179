@@ -1,11 +1,61 @@
-﻿Year,A Crimes against the person,B Property and deception offences,C Drug offences,D Public order and security offences,E Justice procedures offences,F Other offences
-2024,86274,299338,30545,27438,90340,1738
-2023,84861,261276,31301,29882,87792,1300
-2022,82325,237879,29868,28134,80234,11658
-2021,84012,253069,39918,31298,84559,38725
-2020,82874,312887,33921,31636,79461,1275
-2019,80804,287870,32361,35372,76282,1788
-2018,80159,287503,28630,34695,69419,1671
-2017,79534,324062,30912,35748,70245,1642
-2016,74152,310238,30776,37380,67576,1564
-2015,68219,270993,26967,36866,56035,1522
+﻿Year,Offence Division,Total Offences
+2024,A Crimes against the person,86274
+2023,A Crimes against the person,84861
+2022,A Crimes against the person,82325
+2021,A Crimes against the person,84012
+2020,A Crimes against the person,82874
+2019,A Crimes against the person,80804
+2018,A Crimes against the person,80159
+2017,A Crimes against the person,79534
+2016,A Crimes against the person,74152
+2015,A Crimes against the person,68219
+2024,B Property and deception offences,299338
+2023,B Property and deception offences,261276
+2022,B Property and deception offences,237879
+2021,B Property and deception offences,253069
+2020,B Property and deception offences,312887
+2019,B Property and deception offences,287870
+2018,B Property and deception offences,287503
+2017,B Property and deception offences,324062
+2016,B Property and deception offences,310238
+2015,B Property and deception offences,270993
+2024,C Drug offences,30545
+2023,C Drug offences,31301
+2022,C Drug offences,29868
+2021,C Drug offences,39918
+2020,C Drug offences,33921
+2019,C Drug offences,32361
+2018,C Drug offences,28630
+2017,C Drug offences,30912
+2016,C Drug offences,30776
+2015,C Drug offences,26967
+2024,D Public order and security offences,27438
+2023,D Public order and security offences,29882
+2022,D Public order and security offences,28134
+2021,D Public order and security offences,31298
+2020,D Public order and security offences,31636
+2019,D Public order and security offences,35372
+2018,D Public order and security offences,34695
+2017,D Public order and security offences,35748
+2016,D Public order and security offences,37380
+2015,D Public order and security offences,36866
+2024,E Justice procedures offences,90340
+2023,E Justice procedures offences,87792
+2022,E Justice procedures offences,80234
+2021,E Justice procedures offences,84559
+2020,E Justice procedures offences,79461
+2019,E Justice procedures offences,76282
+2018,E Justice procedures offences,69419
+2017,E Justice procedures offences,70245
+2016,E Justice procedures offences,67576
+2015,E Justice procedures offences,56035
+2024,F Other offences,1738
+2023,F Other offences,1300
+2022,F Other offences,11658
+2021,F Other offences,38725
+2020,F Other offences,1275
+2019,F Other offences,1788
+2018,F Other offences,1671
+2017,F Other offences,1642
+2016,F Other offences,1564
+2015,F Other offences,1522

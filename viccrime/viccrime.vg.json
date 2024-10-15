@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 300, "height": 200,
-  "data": {"url": "viccrimetype.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencebydivyear.csv"},
   "mark": "area",
   "encoding": {
     "x": {
