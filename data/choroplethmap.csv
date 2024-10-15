@@ -20,7 +20,7 @@ Americas,Central America,Belize,4.64,4.87
 Africa,West Africa,Benin,5.25,5.32
 Asia,Southern Asia,Bhutan,3.69,3.90
 Americas,South America,Bolivia,4.30,4.95
-Europe,Central & Eastern Europe,Bosnia and Herzegovina,5.89,5.85
+Europe,Central & Eastern Europe,Bosnia and Herz.,5.89,5.85
 Africa,Southern Africa,Botswana,3.71,4.35
 Americas,South America,Brazil,6.50,6.77
 Asia,South-Eastern Asia,Brunei,2.76,2.85
@@ -31,7 +31,7 @@ Africa,West Africa,Cabo Verde,4.04,4.28
 Asia,South-Eastern Asia,Cambodia,5.83,6.85
 Africa,Central Africa,Cameroon,6.31,6.27
 Americas,North America,Canada,3.66,3.88
-Africa,Central Africa,Central African Republic,7.04,6.75
+Africa,Central Africa,Central African Rep.,7.04,6.75
 Africa,Central Africa,Chad,5.86,5.50
 Americas,South America,Chile,4.60,5.18
 Asia,Eastern Asia,China,6.01,6.37
@@ -48,7 +48,7 @@ Europe,Central & Eastern Europe,Czechia,4.63,4.68
 Europe,Northern Europe,Denmark,3.86,4.02
 Africa,East Africa,Djibouti,3.99,4.65
 Americas,Caribbean ,Dominica,2.63,2.63
-Americas,Caribbean ,Dominican Republic,5.15,5.02
+Americas,Caribbean ,Dominican Rep.,5.15,5.02
 Americas,South America,Ecuador,6.25,7.07
 Africa,North Africa,Egypt,5.16,5.05
 Americas,Central America,El Salvador,5.94,5.92
@@ -157,7 +157,7 @@ Europe,Central & Eastern Europe,Slovenia,4.29,4.37
 Oceania,Melanesia,Solomon Is.,4.15,4.40
 Africa,East Africa,Somalia,5.79,6.13
 Africa,Southern Africa,South Africa,6.63,7.18
-Africa,East Africa,South Sudan,6.34,6.32
+Africa,East Africa,S. Sudan,6.34,6.32
 Europe,Southern Europe,Spain,5.78,5.90
 Asia,Southern Asia,Sri Lanka,4.64,4.92
 Americas,Caribbean ,St. Kitts and Nevis,4.10,3.52
