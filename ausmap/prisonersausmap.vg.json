@@ -54,8 +54,8 @@
         },
         "tooltip": [
           { "field": "properties.name", "type": "nominal", "title": "State" },
-          { "field": "Male Imprisonment Rate", "type": "quantitative" },
-          { "field": "Female Imprisonment Rate", "type": "quantitative" },
+          { "field": "Male Imprisonment Rate", "type": "quantitative", "title": "Male Imprisonment per 100,000" },
+          { "field": "Female Imprisonment Rate", "type": "quantitative", "title":"Female Imprisonment per 100,000" },
           { "field": "Total Prisoners", "type": "quantitative" },
           { "field": "Year", "type": "quantitative" }
         ]
