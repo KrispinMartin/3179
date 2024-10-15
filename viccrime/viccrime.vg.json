@@ -3,6 +3,16 @@
     "width": 600,
     "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencebydivyear.csv"},
+    "params": [
+        {
+          "name": "division_selector",
+          "select": {
+            "type": "point",
+            "fields": ["Offence Division"]
+          },
+          "bind": "legend"
+        }
+    ],
     "mark":{"type": "area", "line": true, "point": true},
     "encoding": {
       "y": {"aggregate":"sum","field": "Total Offences"},
@@ -13,7 +23,10 @@
         "range": ["#91bfdb", "#762a83", "#c51b7d", "#4d9221", "#01665e", "#8c510a"]
       }
     },
-      "opacity": {"value": 0.6}
+        "opacity": {
+        "condition": { "param": "division_selector", "value": 0.7 },
+        "value": 0.2
+      }
     }
   }
   
