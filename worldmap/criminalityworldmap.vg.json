@@ -6,7 +6,7 @@
     "projection": {"type": "equalEarth"},
     "data": {
       "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_10m.topojson",
-      "format": {"type": "topojson", "feature": "Admin-0 country"}
+      "format": {"type": "topojson", "feature": "ne_10m_admin_0_countries"}
     },
 
     "transform": [
