@@ -1,281 +1,281 @@
-"Year","Offence.Subdivision","Offence.Division","Total_Offence_Count"
-2015,"A10 Homicide and related offences","A Crimes against the person",176
-2015,"A20 Assault and related offences","A Crimes against the person",37008
-2015,"A30 Sexual offences","A Crimes against the person",11564
-2015,"A40 Abduction and related offences","A Crimes against the person",683
-2015,"A50 Robbery","A Crimes against the person",2414
-2015,"A60 Blackmail and extortion","A Crimes against the person",216
-2015,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",11880
-2015,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",4278
-2015,"B10 Arson","B Property and deception offences",3348
-2015,"B20 Property damage","B Property and deception offences",42055
-2015,"B30 Burglary/Break and enter","B Property and deception offences",44966
-2015,"B40 Theft","B Property and deception offences",147438
-2015,"B50 Deception","B Property and deception offences",33146
-2015,"B60 Bribery","B Property and deception offences",40
-2015,"C10 Drug dealing and trafficking","C Drug offences",4644
-2015,"C20 Cultivate or manufacture drugs","C Drug offences",1664
-2015,"C30 Drug use and possession","C Drug offences",20627
-2015,"C90 Other drug offences","C Drug offences",32
-2015,"D10 Weapons and explosives offences","D Public order and security offences",13683
-2015,"D20 Disorderly and offensive conduct","D Public order and security offences",20501
-2015,"D30 Public nuisance offences","D Public order and security offences",2580
-2015,"D40 Public security offences","D Public order and security offences",102
-2015,"E10 Justice procedures","E Justice procedures offences",6697
-2015,"E20 Breaches of orders","E Justice procedures offences",49338
-2015,"F10 Regulatory driving offences","F Other offences",34
-2015,"F20 Transport regulation offences","F Other offences",450
-2015,"F30 Other government regulatory offences","F Other offences",538
-2015,"F90 Miscellaneous offences","F Other offences",500
-2016,"A10 Homicide and related offences","A Crimes against the person",195
-2016,"A20 Assault and related offences","A Crimes against the person",40510
-2016,"A30 Sexual offences","A Crimes against the person",11984
-2016,"A40 Abduction and related offences","A Crimes against the person",774
-2016,"A50 Robbery","A Crimes against the person",2751
-2016,"A60 Blackmail and extortion","A Crimes against the person",209
-2016,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",12635
-2016,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",5094
-2016,"B10 Arson","B Property and deception offences",4353
-2016,"B20 Property damage","B Property and deception offences",43696
-2016,"B30 Burglary/Break and enter","B Property and deception offences",51159
-2016,"B40 Theft","B Property and deception offences",172555
-2016,"B50 Deception","B Property and deception offences",38465
-2016,"B60 Bribery","B Property and deception offences",10
-2016,"C10 Drug dealing and trafficking","C Drug offences",5352
-2016,"C20 Cultivate or manufacture drugs","C Drug offences",1795
-2016,"C30 Drug use and possession","C Drug offences",23370
-2016,"C90 Other drug offences","C Drug offences",259
-2016,"D10 Weapons and explosives offences","D Public order and security offences",16274
-2016,"D20 Disorderly and offensive conduct","D Public order and security offences",17492
-2016,"D30 Public nuisance offences","D Public order and security offences",3434
-2016,"D40 Public security offences","D Public order and security offences",180
-2016,"E10 Justice procedures","E Justice procedures offences",11023
-2016,"E20 Breaches of orders","E Justice procedures offences",56553
-2016,"F10 Regulatory driving offences","F Other offences",25
-2016,"F20 Transport regulation offences","F Other offences",524
-2016,"F30 Other government regulatory offences","F Other offences",520
-2016,"F90 Miscellaneous offences","F Other offences",495
-2017,"A10 Homicide and related offences","A Crimes against the person",237
-2017,"A20 Assault and related offences","A Crimes against the person",43655
-2017,"A30 Sexual offences","A Crimes against the person",13359
-2017,"A40 Abduction and related offences","A Crimes against the person",807
-2017,"A50 Robbery","A Crimes against the person",3294
-2017,"A60 Blackmail and extortion","A Crimes against the person",207
-2017,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",11882
-2017,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",6093
-2017,"B10 Arson","B Property and deception offences",3608
-2017,"B20 Property damage","B Property and deception offences",43062
-2017,"B30 Burglary/Break and enter","B Property and deception offences",53445
-2017,"B40 Theft","B Property and deception offences",188599
-2017,"B50 Deception","B Property and deception offences",35326
-2017,"B60 Bribery","B Property and deception offences",22
-2017,"C10 Drug dealing and trafficking","C Drug offences",4813
-2017,"C20 Cultivate or manufacture drugs","C Drug offences",1475
-2017,"C30 Drug use and possession","C Drug offences",24572
-2017,"C90 Other drug offences","C Drug offences",52
-2017,"D10 Weapons and explosives offences","D Public order and security offences",15922
-2017,"D20 Disorderly and offensive conduct","D Public order and security offences",16485
-2017,"D30 Public nuisance offences","D Public order and security offences",3270
-2017,"D40 Public security offences","D Public order and security offences",71
-2017,"E10 Justice procedures","E Justice procedures offences",13255
-2017,"E20 Breaches of orders","E Justice procedures offences",56990
-2017,"F10 Regulatory driving offences","F Other offences",14
-2017,"F20 Transport regulation offences","F Other offences",743
-2017,"F30 Other government regulatory offences","F Other offences",476
-2017,"F90 Miscellaneous offences","F Other offences",409
-2018,"A10 Homicide and related offences","A Crimes against the person",225
-2018,"A20 Assault and related offences","A Crimes against the person",43292
-2018,"A30 Sexual offences","A Crimes against the person",14924
-2018,"A40 Abduction and related offences","A Crimes against the person",717
-2018,"A50 Robbery","A Crimes against the person",3227
-2018,"A60 Blackmail and extortion","A Crimes against the person",169
-2018,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",11681
-2018,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",5924
-2018,"B10 Arson","B Property and deception offences",3209
-2018,"B20 Property damage","B Property and deception offences",41400
-2018,"B30 Burglary/Break and enter","B Property and deception offences",45128
-2018,"B40 Theft","B Property and deception offences",164062
-2018,"B50 Deception","B Property and deception offences",33695
-2018,"B60 Bribery","B Property and deception offences",9
-2018,"C10 Drug dealing and trafficking","C Drug offences",4208
-2018,"C20 Cultivate or manufacture drugs","C Drug offences",1308
-2018,"C30 Drug use and possession","C Drug offences",23049
-2018,"C90 Other drug offences","C Drug offences",65
-2018,"D10 Weapons and explosives offences","D Public order and security offences",14689
-2018,"D20 Disorderly and offensive conduct","D Public order and security offences",16061
-2018,"D30 Public nuisance offences","D Public order and security offences",3808
-2018,"D40 Public security offences","D Public order and security offences",137
-2018,"E10 Justice procedures","E Justice procedures offences",12236
-2018,"E20 Breaches of orders","E Justice procedures offences",57183
-2018,"F10 Regulatory driving offences","F Other offences",19
-2018,"F20 Transport regulation offences","F Other offences",557
-2018,"F30 Other government regulatory offences","F Other offences",725
-2018,"F90 Miscellaneous offences","F Other offences",370
-2019,"A10 Homicide and related offences","A Crimes against the person",184
-2019,"A20 Assault and related offences","A Crimes against the person",44690
-2019,"A30 Sexual offences","A Crimes against the person",13444
-2019,"A40 Abduction and related offences","A Crimes against the person",715
-2019,"A50 Robbery","A Crimes against the person",3295
-2019,"A60 Blackmail and extortion","A Crimes against the person",257
-2019,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",12299
-2019,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",5920
-2019,"B10 Arson","B Property and deception offences",3219
-2019,"B20 Property damage","B Property and deception offences",39343
-2019,"B30 Burglary/Break and enter","B Property and deception offences",39023
-2019,"B40 Theft","B Property and deception offences",169740
-2019,"B50 Deception","B Property and deception offences",36538
-2019,"B60 Bribery","B Property and deception offences",7
-2019,"C10 Drug dealing and trafficking","C Drug offences",4810
-2019,"C20 Cultivate or manufacture drugs","C Drug offences",1436
-2019,"C30 Drug use and possession","C Drug offences",26020
-2019,"C90 Other drug offences","C Drug offences",95
-2019,"D10 Weapons and explosives offences","D Public order and security offences",15961
-2019,"D20 Disorderly and offensive conduct","D Public order and security offences",15492
-2019,"D30 Public nuisance offences","D Public order and security offences",3855
-2019,"D40 Public security offences","D Public order and security offences",64
-2019,"E10 Justice procedures","E Justice procedures offences",12648
-2019,"E20 Breaches of orders","E Justice procedures offences",63634
-2019,"F10 Regulatory driving offences","F Other offences",17
-2019,"F20 Transport regulation offences","F Other offences",626
-2019,"F30 Other government regulatory offences","F Other offences",660
-2019,"F90 Miscellaneous offences","F Other offences",485
-2020,"A10 Homicide and related offences","A Crimes against the person",212
-2020,"A20 Assault and related offences","A Crimes against the person",45670
-2020,"A30 Sexual offences","A Crimes against the person",13750
-2020,"A40 Abduction and related offences","A Crimes against the person",721
-2020,"A50 Robbery","A Crimes against the person",4109
-2020,"A60 Blackmail and extortion","A Crimes against the person",232
-2020,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",12451
-2020,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",5729
-2020,"B10 Arson","B Property and deception offences",2805
-2020,"B20 Property damage","B Property and deception offences",41234
-2020,"B30 Burglary/Break and enter","B Property and deception offences",43500
-2020,"B40 Theft","B Property and deception offences",190146
-2020,"B50 Deception","B Property and deception offences",35200
-2020,"B60 Bribery","B Property and deception offences",2
-2020,"C10 Drug dealing and trafficking","C Drug offences",4995
-2020,"C20 Cultivate or manufacture drugs","C Drug offences",1491
-2020,"C30 Drug use and possession","C Drug offences",27374
-2020,"C90 Other drug offences","C Drug offences",61
-2020,"D10 Weapons and explosives offences","D Public order and security offences",15558
-2020,"D20 Disorderly and offensive conduct","D Public order and security offences",12341
-2020,"D30 Public nuisance offences","D Public order and security offences",3643
-2020,"D40 Public security offences","D Public order and security offences",94
-2020,"E10 Justice procedures","E Justice procedures offences",12817
-2020,"E20 Breaches of orders","E Justice procedures offences",66644
-2020,"F10 Regulatory driving offences","F Other offences",26
-2020,"F20 Transport regulation offences","F Other offences",404
-2020,"F30 Other government regulatory offences","F Other offences",363
-2020,"F90 Miscellaneous offences","F Other offences",482
-2021,"A10 Homicide and related offences","A Crimes against the person",196
-2021,"A20 Assault and related offences","A Crimes against the person",45693
-2021,"A30 Sexual offences","A Crimes against the person",14150
-2021,"A40 Abduction and related offences","A Crimes against the person",774
-2021,"A50 Robbery","A Crimes against the person",2594
-2021,"A60 Blackmail and extortion","A Crimes against the person",244
-2021,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",14078
-2021,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",6283
-2021,"B10 Arson","B Property and deception offences",2158
-2021,"B20 Property damage","B Property and deception offences",38532
-2021,"B30 Burglary/Break and enter","B Property and deception offences",30752
-2021,"B40 Theft","B Property and deception offences",145750
-2021,"B50 Deception","B Property and deception offences",35872
-2021,"B60 Bribery","B Property and deception offences",5
-2021,"C10 Drug dealing and trafficking","C Drug offences",5581
-2021,"C20 Cultivate or manufacture drugs","C Drug offences",2159
-2021,"C30 Drug use and possession","C Drug offences",32116
-2021,"C90 Other drug offences","C Drug offences",62
-2021,"D10 Weapons and explosives offences","D Public order and security offences",16649
-2021,"D20 Disorderly and offensive conduct","D Public order and security offences",10606
-2021,"D30 Public nuisance offences","D Public order and security offences",3888
-2021,"D40 Public security offences","D Public order and security offences",155
-2021,"E10 Justice procedures","E Justice procedures offences",13687
-2021,"E20 Breaches of orders","E Justice procedures offences",70872
-2021,"F10 Regulatory driving offences","F Other offences",12
-2021,"F20 Transport regulation offences","F Other offences",283
-2021,"F30 Other government regulatory offences","F Other offences",461
-2021,"F90 Miscellaneous offences","F Other offences",37969
-2022,"A10 Homicide and related offences","A Crimes against the person",181
-2022,"A20 Assault and related offences","A Crimes against the person",44933
-2022,"A30 Sexual offences","A Crimes against the person",14299
-2022,"A40 Abduction and related offences","A Crimes against the person",734
-2022,"A50 Robbery","A Crimes against the person",2388
-2022,"A60 Blackmail and extortion","A Crimes against the person",284
-2022,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",13425
-2022,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",6081
-2022,"B10 Arson","B Property and deception offences",2128
-2022,"B20 Property damage","B Property and deception offences",38086
-2022,"B30 Burglary/Break and enter","B Property and deception offences",30050
-2022,"B40 Theft","B Property and deception offences",139496
-2022,"B50 Deception","B Property and deception offences",28113
-2022,"B60 Bribery","B Property and deception offences",6
-2022,"C10 Drug dealing and trafficking","C Drug offences",3834
-2022,"C20 Cultivate or manufacture drugs","C Drug offences",1826
-2022,"C30 Drug use and possession","C Drug offences",24025
-2022,"C90 Other drug offences","C Drug offences",183
-2022,"D10 Weapons and explosives offences","D Public order and security offences",14913
-2022,"D20 Disorderly and offensive conduct","D Public order and security offences",9192
-2022,"D30 Public nuisance offences","D Public order and security offences",3962
-2022,"D40 Public security offences","D Public order and security offences",67
-2022,"E10 Justice procedures","E Justice procedures offences",12138
-2022,"E20 Breaches of orders","E Justice procedures offences",68096
-2022,"F10 Regulatory driving offences","F Other offences",19
-2022,"F20 Transport regulation offences","F Other offences",332
-2022,"F30 Other government regulatory offences","F Other offences",411
-2022,"F90 Miscellaneous offences","F Other offences",10896
-2023,"A10 Homicide and related offences","A Crimes against the person",199
-2023,"A20 Assault and related offences","A Crimes against the person",47182
-2023,"A30 Sexual offences","A Crimes against the person",14112
-2023,"A40 Abduction and related offences","A Crimes against the person",674
-2023,"A50 Robbery","A Crimes against the person",2607
-2023,"A60 Blackmail and extortion","A Crimes against the person",718
-2023,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",13026
-2023,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",6343
-2023,"B10 Arson","B Property and deception offences",2121
-2023,"B20 Property damage","B Property and deception offences",39509
-2023,"B30 Burglary/Break and enter","B Property and deception offences",34950
-2023,"B40 Theft","B Property and deception offences",155304
-2023,"B50 Deception","B Property and deception offences",29390
-2023,"B60 Bribery","B Property and deception offences",2
-2023,"C10 Drug dealing and trafficking","C Drug offences",4082
-2023,"C20 Cultivate or manufacture drugs","C Drug offences",1939
-2023,"C30 Drug use and possession","C Drug offences",24964
-2023,"C90 Other drug offences","C Drug offences",316
-2023,"D10 Weapons and explosives offences","D Public order and security offences",15690
-2023,"D20 Disorderly and offensive conduct","D Public order and security offences",9613
-2023,"D30 Public nuisance offences","D Public order and security offences",3913
-2023,"D40 Public security offences","D Public order and security offences",666
-2023,"E10 Justice procedures","E Justice procedures offences",12018
-2023,"E20 Breaches of orders","E Justice procedures offences",75774
-2023,"F10 Regulatory driving offences","F Other offences",10
-2023,"F20 Transport regulation offences","F Other offences",453
-2023,"F30 Other government regulatory offences","F Other offences",254
-2023,"F90 Miscellaneous offences","F Other offences",583
-2024,"A10 Homicide and related offences","A Crimes against the person",221
-2024,"A20 Assault and related offences","A Crimes against the person",47290
-2024,"A30 Sexual offences","A Crimes against the person",15484
-2024,"A40 Abduction and related offences","A Crimes against the person",667
-2024,"A50 Robbery","A Crimes against the person",3180
-2024,"A60 Blackmail and extortion","A Crimes against the person",574
-2024,"A70 Stalking, harassment and threatening behaviour","A Crimes against the person",12844
-2024,"A80 Dangerous and negligent acts endangering people","A Crimes against the person",6014
-2024,"B10 Arson","B Property and deception offences",2664
-2024,"B20 Property damage","B Property and deception offences",42971
-2024,"B30 Burglary/Break and enter","B Property and deception offences",39856
-2024,"B40 Theft","B Property and deception offences",181665
-2024,"B50 Deception","B Property and deception offences",32173
-2024,"B60 Bribery","B Property and deception offences",9
-2024,"C10 Drug dealing and trafficking","C Drug offences",3860
-2024,"C20 Cultivate or manufacture drugs","C Drug offences",2162
-2024,"C30 Drug use and possession","C Drug offences",24228
-2024,"C90 Other drug offences","C Drug offences",295
-2024,"D10 Weapons and explosives offences","D Public order and security offences",15362
-2024,"D20 Disorderly and offensive conduct","D Public order and security offences",7668
-2024,"D30 Public nuisance offences","D Public order and security offences",4234
-2024,"D40 Public security offences","D Public order and security offences",174
-2024,"E10 Justice procedures","E Justice procedures offences",12521
-2024,"E20 Breaches of orders","E Justice procedures offences",77819
-2024,"F10 Regulatory driving offences","F Other offences",40
-2024,"F20 Transport regulation offences","F Other offences",855
-2024,"F30 Other government regulatory offences","F Other offences",400
-2024,"F90 Miscellaneous offences","F Other offences",443
+Year,Offence Subdivision,Offence Division,Total Offences
+2015,A10 Homicide and related offences,A Crimes against the person,176
+2015,A20 Assault and related offences,A Crimes against the person,37008
+2015,A30 Sexual offences,A Crimes against the person,11564
+2015,A40 Abduction and related offences,A Crimes against the person,683
+2015,A50 Robbery,A Crimes against the person,2414
+2015,A60 Blackmail and extortion,A Crimes against the person,216
+2015,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,11880
+2015,A80 Dangerous and negligent acts endangering people,A Crimes against the person,4278
+2015,B10 Arson,B Property and deception offences,3348
+2015,B20 Property damage,B Property and deception offences,42055
+2015,B30 Burglary/Break and enter,B Property and deception offences,44966
+2015,B40 Theft,B Property and deception offences,147438
+2015,B50 Deception,B Property and deception offences,33146
+2015,B60 Bribery,B Property and deception offences,40
+2015,C10 Drug dealing and trafficking,C Drug offences,4644
+2015,C20 Cultivate or manufacture drugs,C Drug offences,1664
+2015,C30 Drug use and possession,C Drug offences,20627
+2015,C90 Other drug offences,C Drug offences,32
+2015,D10 Weapons and explosives offences,D Public order and security offences,13683
+2015,D20 Disorderly and offensive conduct,D Public order and security offences,20501
+2015,D30 Public nuisance offences,D Public order and security offences,2580
+2015,D40 Public security offences,D Public order and security offences,102
+2015,E10 Justice procedures,E Justice procedures offences,6697
+2015,E20 Breaches of orders,E Justice procedures offences,49338
+2015,F10 Regulatory driving offences,F Other offences,34
+2015,F20 Transport regulation offences,F Other offences,450
+2015,F30 Other government regulatory offences,F Other offences,538
+2015,F90 Miscellaneous offences,F Other offences,500
+2016,A10 Homicide and related offences,A Crimes against the person,195
+2016,A20 Assault and related offences,A Crimes against the person,40510
+2016,A30 Sexual offences,A Crimes against the person,11984
+2016,A40 Abduction and related offences,A Crimes against the person,774
+2016,A50 Robbery,A Crimes against the person,2751
+2016,A60 Blackmail and extortion,A Crimes against the person,209
+2016,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,12635
+2016,A80 Dangerous and negligent acts endangering people,A Crimes against the person,5094
+2016,B10 Arson,B Property and deception offences,4353
+2016,B20 Property damage,B Property and deception offences,43696
+2016,B30 Burglary/Break and enter,B Property and deception offences,51159
+2016,B40 Theft,B Property and deception offences,172555
+2016,B50 Deception,B Property and deception offences,38465
+2016,B60 Bribery,B Property and deception offences,10
+2016,C10 Drug dealing and trafficking,C Drug offences,5352
+2016,C20 Cultivate or manufacture drugs,C Drug offences,1795
+2016,C30 Drug use and possession,C Drug offences,23370
+2016,C90 Other drug offences,C Drug offences,259
+2016,D10 Weapons and explosives offences,D Public order and security offences,16274
+2016,D20 Disorderly and offensive conduct,D Public order and security offences,17492
+2016,D30 Public nuisance offences,D Public order and security offences,3434
+2016,D40 Public security offences,D Public order and security offences,180
+2016,E10 Justice procedures,E Justice procedures offences,11023
+2016,E20 Breaches of orders,E Justice procedures offences,56553
+2016,F10 Regulatory driving offences,F Other offences,25
+2016,F20 Transport regulation offences,F Other offences,524
+2016,F30 Other government regulatory offences,F Other offences,520
+2016,F90 Miscellaneous offences,F Other offences,495
+2017,A10 Homicide and related offences,A Crimes against the person,237
+2017,A20 Assault and related offences,A Crimes against the person,43655
+2017,A30 Sexual offences,A Crimes against the person,13359
+2017,A40 Abduction and related offences,A Crimes against the person,807
+2017,A50 Robbery,A Crimes against the person,3294
+2017,A60 Blackmail and extortion,A Crimes against the person,207
+2017,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,11882
+2017,A80 Dangerous and negligent acts endangering people,A Crimes against the person,6093
+2017,B10 Arson,B Property and deception offences,3608
+2017,B20 Property damage,B Property and deception offences,43062
+2017,B30 Burglary/Break and enter,B Property and deception offences,53445
+2017,B40 Theft,B Property and deception offences,188599
+2017,B50 Deception,B Property and deception offences,35326
+2017,B60 Bribery,B Property and deception offences,22
+2017,C10 Drug dealing and trafficking,C Drug offences,4813
+2017,C20 Cultivate or manufacture drugs,C Drug offences,1475
+2017,C30 Drug use and possession,C Drug offences,24572
+2017,C90 Other drug offences,C Drug offences,52
+2017,D10 Weapons and explosives offences,D Public order and security offences,15922
+2017,D20 Disorderly and offensive conduct,D Public order and security offences,16485
+2017,D30 Public nuisance offences,D Public order and security offences,3270
+2017,D40 Public security offences,D Public order and security offences,71
+2017,E10 Justice procedures,E Justice procedures offences,13255
+2017,E20 Breaches of orders,E Justice procedures offences,56990
+2017,F10 Regulatory driving offences,F Other offences,14
+2017,F20 Transport regulation offences,F Other offences,743
+2017,F30 Other government regulatory offences,F Other offences,476
+2017,F90 Miscellaneous offences,F Other offences,409
+2018,A10 Homicide and related offences,A Crimes against the person,225
+2018,A20 Assault and related offences,A Crimes against the person,43292
+2018,A30 Sexual offences,A Crimes against the person,14924
+2018,A40 Abduction and related offences,A Crimes against the person,717
+2018,A50 Robbery,A Crimes against the person,3227
+2018,A60 Blackmail and extortion,A Crimes against the person,169
+2018,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,11681
+2018,A80 Dangerous and negligent acts endangering people,A Crimes against the person,5924
+2018,B10 Arson,B Property and deception offences,3209
+2018,B20 Property damage,B Property and deception offences,41400
+2018,B30 Burglary/Break and enter,B Property and deception offences,45128
+2018,B40 Theft,B Property and deception offences,164062
+2018,B50 Deception,B Property and deception offences,33695
+2018,B60 Bribery,B Property and deception offences,9
+2018,C10 Drug dealing and trafficking,C Drug offences,4208
+2018,C20 Cultivate or manufacture drugs,C Drug offences,1308
+2018,C30 Drug use and possession,C Drug offences,23049
+2018,C90 Other drug offences,C Drug offences,65
+2018,D10 Weapons and explosives offences,D Public order and security offences,14689
+2018,D20 Disorderly and offensive conduct,D Public order and security offences,16061
+2018,D30 Public nuisance offences,D Public order and security offences,3808
+2018,D40 Public security offences,D Public order and security offences,137
+2018,E10 Justice procedures,E Justice procedures offences,12236
+2018,E20 Breaches of orders,E Justice procedures offences,57183
+2018,F10 Regulatory driving offences,F Other offences,19
+2018,F20 Transport regulation offences,F Other offences,557
+2018,F30 Other government regulatory offences,F Other offences,725
+2018,F90 Miscellaneous offences,F Other offences,370
+2019,A10 Homicide and related offences,A Crimes against the person,184
+2019,A20 Assault and related offences,A Crimes against the person,44690
+2019,A30 Sexual offences,A Crimes against the person,13444
+2019,A40 Abduction and related offences,A Crimes against the person,715
+2019,A50 Robbery,A Crimes against the person,3295
+2019,A60 Blackmail and extortion,A Crimes against the person,257
+2019,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,12299
+2019,A80 Dangerous and negligent acts endangering people,A Crimes against the person,5920
+2019,B10 Arson,B Property and deception offences,3219
+2019,B20 Property damage,B Property and deception offences,39343
+2019,B30 Burglary/Break and enter,B Property and deception offences,39023
+2019,B40 Theft,B Property and deception offences,169740
+2019,B50 Deception,B Property and deception offences,36538
+2019,B60 Bribery,B Property and deception offences,7
+2019,C10 Drug dealing and trafficking,C Drug offences,4810
+2019,C20 Cultivate or manufacture drugs,C Drug offences,1436
+2019,C30 Drug use and possession,C Drug offences,26020
+2019,C90 Other drug offences,C Drug offences,95
+2019,D10 Weapons and explosives offences,D Public order and security offences,15961
+2019,D20 Disorderly and offensive conduct,D Public order and security offences,15492
+2019,D30 Public nuisance offences,D Public order and security offences,3855
+2019,D40 Public security offences,D Public order and security offences,64
+2019,E10 Justice procedures,E Justice procedures offences,12648
+2019,E20 Breaches of orders,E Justice procedures offences,63634
+2019,F10 Regulatory driving offences,F Other offences,17
+2019,F20 Transport regulation offences,F Other offences,626
+2019,F30 Other government regulatory offences,F Other offences,660
+2019,F90 Miscellaneous offences,F Other offences,485
+2020,A10 Homicide and related offences,A Crimes against the person,212
+2020,A20 Assault and related offences,A Crimes against the person,45670
+2020,A30 Sexual offences,A Crimes against the person,13750
+2020,A40 Abduction and related offences,A Crimes against the person,721
+2020,A50 Robbery,A Crimes against the person,4109
+2020,A60 Blackmail and extortion,A Crimes against the person,232
+2020,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,12451
+2020,A80 Dangerous and negligent acts endangering people,A Crimes against the person,5729
+2020,B10 Arson,B Property and deception offences,2805
+2020,B20 Property damage,B Property and deception offences,41234
+2020,B30 Burglary/Break and enter,B Property and deception offences,43500
+2020,B40 Theft,B Property and deception offences,190146
+2020,B50 Deception,B Property and deception offences,35200
+2020,B60 Bribery,B Property and deception offences,2
+2020,C10 Drug dealing and trafficking,C Drug offences,4995
+2020,C20 Cultivate or manufacture drugs,C Drug offences,1491
+2020,C30 Drug use and possession,C Drug offences,27374
+2020,C90 Other drug offences,C Drug offences,61
+2020,D10 Weapons and explosives offences,D Public order and security offences,15558
+2020,D20 Disorderly and offensive conduct,D Public order and security offences,12341
+2020,D30 Public nuisance offences,D Public order and security offences,3643
+2020,D40 Public security offences,D Public order and security offences,94
+2020,E10 Justice procedures,E Justice procedures offences,12817
+2020,E20 Breaches of orders,E Justice procedures offences,66644
+2020,F10 Regulatory driving offences,F Other offences,26
+2020,F20 Transport regulation offences,F Other offences,404
+2020,F30 Other government regulatory offences,F Other offences,363
+2020,F90 Miscellaneous offences,F Other offences,482
+2021,A10 Homicide and related offences,A Crimes against the person,196
+2021,A20 Assault and related offences,A Crimes against the person,45693
+2021,A30 Sexual offences,A Crimes against the person,14150
+2021,A40 Abduction and related offences,A Crimes against the person,774
+2021,A50 Robbery,A Crimes against the person,2594
+2021,A60 Blackmail and extortion,A Crimes against the person,244
+2021,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,14078
+2021,A80 Dangerous and negligent acts endangering people,A Crimes against the person,6283
+2021,B10 Arson,B Property and deception offences,2158
+2021,B20 Property damage,B Property and deception offences,38532
+2021,B30 Burglary/Break and enter,B Property and deception offences,30752
+2021,B40 Theft,B Property and deception offences,145750
+2021,B50 Deception,B Property and deception offences,35872
+2021,B60 Bribery,B Property and deception offences,5
+2021,C10 Drug dealing and trafficking,C Drug offences,5581
+2021,C20 Cultivate or manufacture drugs,C Drug offences,2159
+2021,C30 Drug use and possession,C Drug offences,32116
+2021,C90 Other drug offences,C Drug offences,62
+2021,D10 Weapons and explosives offences,D Public order and security offences,16649
+2021,D20 Disorderly and offensive conduct,D Public order and security offences,10606
+2021,D30 Public nuisance offences,D Public order and security offences,3888
+2021,D40 Public security offences,D Public order and security offences,155
+2021,E10 Justice procedures,E Justice procedures offences,13687
+2021,E20 Breaches of orders,E Justice procedures offences,70872
+2021,F10 Regulatory driving offences,F Other offences,12
+2021,F20 Transport regulation offences,F Other offences,283
+2021,F30 Other government regulatory offences,F Other offences,461
+2021,F90 Miscellaneous offences,F Other offences,37969
+2022,A10 Homicide and related offences,A Crimes against the person,181
+2022,A20 Assault and related offences,A Crimes against the person,44933
+2022,A30 Sexual offences,A Crimes against the person,14299
+2022,A40 Abduction and related offences,A Crimes against the person,734
+2022,A50 Robbery,A Crimes against the person,2388
+2022,A60 Blackmail and extortion,A Crimes against the person,284
+2022,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,13425
+2022,A80 Dangerous and negligent acts endangering people,A Crimes against the person,6081
+2022,B10 Arson,B Property and deception offences,2128
+2022,B20 Property damage,B Property and deception offences,38086
+2022,B30 Burglary/Break and enter,B Property and deception offences,30050
+2022,B40 Theft,B Property and deception offences,139496
+2022,B50 Deception,B Property and deception offences,28113
+2022,B60 Bribery,B Property and deception offences,6
+2022,C10 Drug dealing and trafficking,C Drug offences,3834
+2022,C20 Cultivate or manufacture drugs,C Drug offences,1826
+2022,C30 Drug use and possession,C Drug offences,24025
+2022,C90 Other drug offences,C Drug offences,183
+2022,D10 Weapons and explosives offences,D Public order and security offences,14913
+2022,D20 Disorderly and offensive conduct,D Public order and security offences,9192
+2022,D30 Public nuisance offences,D Public order and security offences,3962
+2022,D40 Public security offences,D Public order and security offences,67
+2022,E10 Justice procedures,E Justice procedures offences,12138
+2022,E20 Breaches of orders,E Justice procedures offences,68096
+2022,F10 Regulatory driving offences,F Other offences,19
+2022,F20 Transport regulation offences,F Other offences,332
+2022,F30 Other government regulatory offences,F Other offences,411
+2022,F90 Miscellaneous offences,F Other offences,10896
+2023,A10 Homicide and related offences,A Crimes against the person,199
+2023,A20 Assault and related offences,A Crimes against the person,47182
+2023,A30 Sexual offences,A Crimes against the person,14112
+2023,A40 Abduction and related offences,A Crimes against the person,674
+2023,A50 Robbery,A Crimes against the person,2607
+2023,A60 Blackmail and extortion,A Crimes against the person,718
+2023,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,13026
+2023,A80 Dangerous and negligent acts endangering people,A Crimes against the person,6343
+2023,B10 Arson,B Property and deception offences,2121
+2023,B20 Property damage,B Property and deception offences,39509
+2023,B30 Burglary/Break and enter,B Property and deception offences,34950
+2023,B40 Theft,B Property and deception offences,155304
+2023,B50 Deception,B Property and deception offences,29390
+2023,B60 Bribery,B Property and deception offences,2
+2023,C10 Drug dealing and trafficking,C Drug offences,4082
+2023,C20 Cultivate or manufacture drugs,C Drug offences,1939
+2023,C30 Drug use and possession,C Drug offences,24964
+2023,C90 Other drug offences,C Drug offences,316
+2023,D10 Weapons and explosives offences,D Public order and security offences,15690
+2023,D20 Disorderly and offensive conduct,D Public order and security offences,9613
+2023,D30 Public nuisance offences,D Public order and security offences,3913
+2023,D40 Public security offences,D Public order and security offences,666
+2023,E10 Justice procedures,E Justice procedures offences,12018
+2023,E20 Breaches of orders,E Justice procedures offences,75774
+2023,F10 Regulatory driving offences,F Other offences,10
+2023,F20 Transport regulation offences,F Other offences,453
+2023,F30 Other government regulatory offences,F Other offences,254
+2023,F90 Miscellaneous offences,F Other offences,583
+2024,A10 Homicide and related offences,A Crimes against the person,221
+2024,A20 Assault and related offences,A Crimes against the person,47290
+2024,A30 Sexual offences,A Crimes against the person,15484
+2024,A40 Abduction and related offences,A Crimes against the person,667
+2024,A50 Robbery,A Crimes against the person,3180
+2024,A60 Blackmail and extortion,A Crimes against the person,574
+2024,"A70 Stalking, harassment and threatening behaviour",A Crimes against the person,12844
+2024,A80 Dangerous and negligent acts endangering people,A Crimes against the person,6014
+2024,B10 Arson,B Property and deception offences,2664
+2024,B20 Property damage,B Property and deception offences,42971
+2024,B30 Burglary/Break and enter,B Property and deception offences,39856
+2024,B40 Theft,B Property and deception offences,181665
+2024,B50 Deception,B Property and deception offences,32173
+2024,B60 Bribery,B Property and deception offences,9
+2024,C10 Drug dealing and trafficking,C Drug offences,3860
+2024,C20 Cultivate or manufacture drugs,C Drug offences,2162
+2024,C30 Drug use and possession,C Drug offences,24228
+2024,C90 Other drug offences,C Drug offences,295
+2024,D10 Weapons and explosives offences,D Public order and security offences,15362
+2024,D20 Disorderly and offensive conduct,D Public order and security offences,7668
+2024,D30 Public nuisance offences,D Public order and security offences,4234
+2024,D40 Public security offences,D Public order and security offences,174
+2024,E10 Justice procedures,E Justice procedures offences,12521
+2024,E20 Breaches of orders,E Justice procedures offences,77819
+2024,F10 Regulatory driving offences,F Other offences,40
+2024,F20 Transport regulation offences,F Other offences,855
+2024,F30 Other government regulatory offences,F Other offences,400
+2024,F90 Miscellaneous offences,F Other offences,443
