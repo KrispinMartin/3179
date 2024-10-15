@@ -112,7 +112,27 @@
                 },
                 "stroke": {"scale": "color", "field": "Country"},
                 "strokeWidth": {"value": 2},
+                "fill": {"scale": "color", "field": "Country"}, 
                 "fillOpacity": {"value": 0.1}
+              }
+            }
+          },
+          {
+            "type": "symbol",  
+            "from": {"data": "facet"},
+            "encode": {
+              "enter": {
+                "x": {
+                  "signal": "scale('radial', datum.value) * cos(scale('angular', datum.category))"
+                },
+                "y": {
+                  "signal": "scale('radial', datum.value) * sin(scale('angular', datum.category))"
+                },
+                "fill": {"scale": "color", "field": "Country"},  
+                "size": {"value": 100},
+                "tooltip": {
+                "signal": "datum.Country + ': ' + format(datum.value, '.2f')"
+              }
               }
             }
           }
