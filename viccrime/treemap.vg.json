@@ -1,142 +1,90 @@
 {
-    "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "description": "An example of treemap layout for hierarchical data.",
-    "width": 960,
-    "height": 500,
-    "padding": 2.5,
-    "autosize": "none",
-  
-    "signals": [
-      {
-        "name": "layout", "value": "squarify",
-        "bind": {
-          "input": "select",
-          "options": [
-            "squarify",
-            "binary",
-            "slicedice"
-                  ]
-        }
-      },
-      {
-        "name": "aspectRatio", "value": 1.6,
-        "bind": {"input": "range", "min": 1, "max": 5, "step": 0.1}
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 400,
+  "height": 400,
+  "padding": 5,
+  "signals": [
+    {
+      "name": "selectView",
+      "value": "squarify",
+      "bind": {
+        "input": "select",
+        "options": ["squarify", "binary"],
+        "name": "View: "
       }
-    ],
-  
-    "data": [
-      {
-        "name": "tree",
-        "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencesbysubdivyear.csv",
-        "transform": [
-          {
-            "type": "stratify",
-            "key": "id",
-            "parentKey": "Offence Division"
-          },
-          {
-            "type": "treemap",
-            "field": "Total Offences",
-            "sort": {"field": "Total Offences", "order": "descending"},
-            "round": true,
-            "method": {"signal": "layout"},
-            "ratio": {"signal": "aspectRatio"},
-            "size": [{"signal": "width"}, {"signal": "height"}]
-          }
-        ]
-      },
-      {
-        "name": "nodes",
-        "source": "tree",
-        "transform": [{ "type": "filter", "expr": "datum.children" }]
-      },
-      {
-        "name": "leaves",
-        "source": "tree",
-        "transform": [{ "type": "filter", "expr": "!datum.children" }]
+    },
+    {
+      "name": "selectedYear",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2024,
+        "step": 1,
+        "name": "Year:  "
       }
-    ],
-  
-    "scales": [
-      {
-        "name": "color",
-        "type": "ordinal",
-        "domain": {"data": "nodes", "field": "Offence Division"},
-        "range": [
-          "#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d",
-          "#fd8d3c"
-        ]
-      },
-      {
-        "name": "size",
-        "type": "ordinal",
-        "domain": [0, 1],
-        "range": [256, 28]
-      },
-      {
-        "name": "opacity",
-        "type": "ordinal",
-        "domain": [0, 1],
-        "range": [0.15, 1.0]
-      }
-    ],
-  
-    "marks": [
-      {
-        "type": "rect",
-        "from": {"data": "nodes"},
-        "interactive": false,
-        "encode": {
-          "enter": {
-            "fill": {"scale": "color", "field": "Offence Division"}
-          },
-          "update": {
-            "x": {"field": "x0"},
-            "y": {"field": "y0"},
-            "x2": {"field": "x1"},
-            "y2": {"field": "y1"}
-          }
+    }
+  ],
+
+  "data": [
+    {
+      "name": "viccrime",
+      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/offencesbysubdivyear.csv",
+      "format": { "type": "csv" },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.Year == selectedYear"
+        },
+        { "type": "nest", "keys": ["Offence Division", "Offence Subdivision"] },
+        {
+          "type": "treemap",
+          "field": "Total Offences",
+          "method": { "signal": "selectView" },
+          "ratio": 0.2,
+          "paddingInner": 1,
+          "size": [{ "signal": "width" }, { "signal": "height" }]
         }
-      },
-      {
-        "type": "rect",
-        "from": {"data": "leaves"},
-        "encode": {
-          "enter": {
-            "stroke": {"value": "#fff"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": { "data": "viccrime", "field": "Offence Division" },
+      "range": [
+        "#66c2a5",
+        "#fc8d62",
+        "#ffd92f",
+        "#e78ac3",
+        "#a6d854",
+        "#8da0cb "
+      ]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": { "data": "viccrime" },
+      "encode": {
+        "update": {
+          "fill": {
+            "scale": "color",
+            "field": "Offence Division",
+            "opacity": 0.5
           },
-          "update": {
-            "x": {"field": "x0"},
-            "y": {"field": "y0"},
-            "x2": {"field": "x1"},
-            "y2": {"field": "y1"},
-            "fill": {"value": "transparent"}
-          },
-          "hover": {
-            "fill": {"value": "red"}
-          }
-        }
-      },
-      {
-        "type": "text",
-        "from": {"data": "nodes"},
-        "interactive": false,
-        "encode": {
-          "enter": {
-            "font": {"value": "Helvetica Neue, Arial"},
-            "align": {"value": "center"},
-            "baseline": {"value": "middle"},
-            "fill": {"value": "#000"},
-            "text": {"field": "name"},
-            "fontSize": {"scale": "size", "field": "depth"},
-            "fillOpacity": {"scale": "opacity", "field": "depth"}
-          },
-          "update": {
-            "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
-            "y": {"signal": "0.5 * (datum.y0 + datum.y1)"}
+          "x": { "field": "x0" },
+          "x2": { "field": "x1" },
+          "y": { "field": "y0" },
+          "y2": { "field": "y1" },
+          "tooltip": {
+          "signal": "{'Offence Division': datum['Offence Division'], 'Offence Subdivision': datum['Offence Subdivision'], 'Total Offences':  format(datum['Total Offences'], ','), 'Year': datum.Year}"
           }
         }
       }
-    ]
-  }
-  
+    }
+  ]
+}

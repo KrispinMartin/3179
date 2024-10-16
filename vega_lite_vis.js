@@ -25,7 +25,7 @@ vegaEmbed("#prisoners_aus_map", vg_4).then(function(result) {
     }
     ).catch(console.error);
 
-var vg_5 = "viccrime/viccrime.vg.json";
+var vg_5 = "viccrime/treemap.vg.json";
 
 vegaEmbed("#vic_crime", vg_5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
