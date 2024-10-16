@@ -49,7 +49,7 @@
           "field": "Male Imprisonment Rate",
           "type": "quantitative",
           "scale": {
-            "range": ["#fef0d9", "#fdd49e", "#fdbb84", "#fc8d50", "#ef6548", "#d7301f", "#990000"]
+            "range": ["#ffffb2", "#fed976", "#feb24c", "#fd8d3c", "#f03b20", "#bd0026"]
           }
         },
         "tooltip": [
@@ -62,7 +62,7 @@
       }
     },
     {
-      "mark": { "type": "text", "fontSize": 11, "fontWeight": "bold", "align": "center", "dy": -5 },
+      "mark": { "type": "text", "fontSize": 10, "fontWeight": "bold", "align": "center", "dy": -10, "dx":-3},
       "encoding": {
         "text": { "field": "properties.name", "type": "nominal" },
         "longitude": { "field": "properties.longitude", "type": "quantitative" },

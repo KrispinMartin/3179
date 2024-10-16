@@ -11,14 +11,14 @@
             "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_10m.topojson",
             "format": {"type": "topojson", "feature": "ne_10m_admin_0_countries"}
             },
-            "mark": {"type": "geoshape", "fill": "black", "stroke": "slategrey"}
+            "mark": {"type": "geoshape", "fill": "white", "stroke": "skyblue"}
         },
         {
             "data": {
             "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_10m.topojson",
             "format": {"type": "topojson", "feature": "ne_10m_ocean"}
             },
-            "mark": {"type": "geoshape", "fill": "skyblue"}
+            "mark": {"type": "geoshape", "fill": "black"}
         },
         {
             "data": {
