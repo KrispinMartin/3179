@@ -32,7 +32,7 @@ vegaEmbed("#vic_crime", vg_5).then(function(result) {
     }
     ).catch(console.error);
 
-var vg_6 = "worldmap/map2.vg.json";
+var vg_6 = "worldmap/criminalityworldmap.vg.json";
 
 vegaEmbed("#world_map", vg_6).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view

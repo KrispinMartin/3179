@@ -37,7 +37,7 @@
           {
             "type": "treemap",
             "field": "Total Offences",
-            "sort": {"field": "value"},
+            "sort": {"field": "Total Offences", "order": "descending"},
             "round": true,
             "method": {"signal": "layout"},
             "ratio": {"signal": "aspectRatio"},
@@ -61,7 +61,7 @@
       {
         "name": "color",
         "type": "ordinal",
-        "domain": {"data": "nodes", "field": "Offence Subdivision"},
+        "domain": {"data": "nodes", "field": "Offence Division"},
         "range": [
           "#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d",
           "#fd8d3c"
@@ -88,7 +88,7 @@
         "interactive": false,
         "encode": {
           "enter": {
-            "fill": {"scale": "color", "field": "Offence Subdivision"}
+            "fill": {"scale": "color", "field": "Offence Division"}
           },
           "update": {
             "x": {"field": "x0"},

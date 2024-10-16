@@ -85,6 +85,7 @@
                 "type": "line",
                 "name": "category-line",
                 "from": {"data": "facet"},
+                "zindex": 0,
                 "encode": {
                   "enter": {
                     "interpolate": {"value": "linear-closed"},
