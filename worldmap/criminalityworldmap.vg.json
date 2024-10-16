@@ -54,7 +54,8 @@
               "scale": {"type": "sequential",
                       "domain": [2,4,6,8,10], 
                       "range": ["#fee5d9", "#fcae91","#fb6a4a", "#de2d26", "#a50f15"]
-                  }
+                  },
+              "legend": {"title": "Criminality Score"}
           },
           "tooltip": [
               {"field": "properties.NAME_LONG", "type": "nominal", "title": "Country"},
