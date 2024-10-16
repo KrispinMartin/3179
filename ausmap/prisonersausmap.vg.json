@@ -17,7 +17,7 @@
         }
     ],
     "data": {
-        "url": "ne/ne_50m_admin_1_states_provinces.topojson",
+        "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/ausmap/ne/ne_50m_admin_1_states_provinces.topojson",
         "format": {
             "type": "topojson", "feature": "ne_50m_admin_1_states_provinces"
         }
