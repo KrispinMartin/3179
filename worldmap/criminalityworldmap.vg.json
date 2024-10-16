@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Criminality Score of Countries",
-  "width": 800,
-  "height": 400,
+  "width": 1000,
+  "height": 600,
   "data":{"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/choroplethmap.csv"},
   "projection": {"type": "equalEarth", "rotate": [-150, 0, 0]},
   "layer":[
@@ -11,7 +11,7 @@
           "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_110m_3/ne_110m_admin_0_countries.topojson",
           "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
           },
-          "mark": {"type": "geoshape", "fill": "white", "stroke": "skyblue"}
+          "mark": {"type": "geoshape", "fill": "white", "stroke": "black", "strokeWidth": 1}
       },
       {
           "data": {
@@ -42,9 +42,9 @@
           "color": {
               "field": "Criminality 2023",
               "type": "quantitative",
-              "scale": {"type": "threshold", 
-                      "domain": [2, 4, 6, 8], 
-                      "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#cb181d"]
+              "scale": {"type": "sequential",
+                      "domain": [2,4,6,8,10], 
+                      "range": ["#fee5d9", "#fcae91","#fb6a4a", "#de2d26", "#a50f15"]
                   }
           },
           "tooltip": [
