@@ -54,7 +54,11 @@
     },
     {
       "filter": "datum.Cybercrime_Type == cybercrime_select"
-    }
+    },
+    {
+        "calculate": "datum.Value / 1000",
+        "as": "Value_Percentage"
+      }
   ],
   "layer": [
     {
@@ -65,10 +69,11 @@
           "type": "geojson"
         },
         "color": {
-          "field": "Value",
+          "field": "Value_Percentage",
           "type": "quantitative",
           "legend": {
-            "title": "Experiences per 1,000",
+            "title": "Affected Population",
+            "format": ".1%",
             "orient": "top-left",
             "titleAnchor": "end",
             "titleAlign": "right"
@@ -95,10 +100,10 @@
             "title": "Cyber-crime"
           },
           {
-            "field": "Value",
+            "field": "Value_Percentage",
             "type": "quantitative",
-            "title": "Experiences per 1,000",
-            "format": ".1f"
+            "title": "Affected Population",
+            "format": ".2%"
           }
         ]
       }
