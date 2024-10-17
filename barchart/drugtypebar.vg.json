@@ -37,7 +37,7 @@
       "value": 0.4
     },
     "tooltip": [
-      { "field": "Drug Type", "type": "nominal", "title": "Drug Type" },
+      { "field": "Drug Type", "type": "nominal"},
       {
         "field": "Total Offences",
         "type": "quantitative",
