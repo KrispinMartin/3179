@@ -169,19 +169,17 @@
       "orient": "left",
       "scale": "y",
       "title": "Total Offences",
-      "tickCount": {"signal": "6"},  
-      "tickMinStep": 50000,       
-      "domain": [0, 300000],       
-      "format": "~s"                
+      "tickCount": {"signal": "6"},
+      "tickMinStep": 50000,
+      "format": "~s"
     },
     {
       "orient": "right",
       "scale": "y",
       "title": "Total Offences",
       "tickCount": {"signal": "6"}, 
-      "tickMinStep": 50000,         
-      "domain": [0, 300000],         
-      "format": "~s"                
+      "tickMinStep": 50000,
+      "format": "~s"
     }
   ],
   "marks": [
