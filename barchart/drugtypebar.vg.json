@@ -9,16 +9,15 @@
       "name": "type_highlight",
       "select": {
         "type": "point",
-        "fields": ["Drug Types"]
+        "fields": ["Drug Type"]
       }
     }
   ],
   "mark": "bar",
   "encoding": {
     "y": {
-      "field": "Drug Types",
+      "field": "Drug Type",
       "type": "nominal",
-      "title": "Drug Type",
       "sort": "-x"
     },
     "x": {
@@ -28,7 +27,7 @@
       "title": "Total Offences"
     },
     "color": {
-      "field": "Drug Types",
+      "field": "Drug Type",
       "type": "nominal",
       "legend": null
 
@@ -38,7 +37,7 @@
       "value": 0.4
     },
     "tooltip": [
-      { "field": "Drug Types", "type": "nominal", "title": "Drug Type" },
+      { "field": "Drug Type", "type": "nominal", "title": "Drug Type" },
       {
         "field": "Total Offences",
         "type": "quantitative",
