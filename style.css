@@ -1,0 +1,30 @@
+/* Centering the titleFrame class and adding padding */
+.titleFrame {
+    text-align: center;
+    background-color: #bebebe;
+    padding: 30px 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a max width to prevent it from growing too large on larger screens */
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+/* Setting the ocean blue background color for the entire page */
+body {
+    background-color: #9fe0fa; /* Ocean blue color */
+    margin: 0; /* Removes default margins to avoid gaps */
+    padding: 0; /* Removes default padding */
+}
+
+/* Updated .page styling to ensure it stays on top */
+.page {
+    background-color: white; /* White background to keep the content visible */
+    border: 2px solid black; /* Border size, style, and color */
+    width: 90%; /* Set width to a percentage for flexibility */
+    max-width: 1200px; /* Maximum width to prevent the container from getting too large */
+    padding: 10px; /* Space between the content and the border */
+    margin: 20px auto; /* Top and bottom margin with auto for horizontal centering */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect to create a sense of depth */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}

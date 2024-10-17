@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Drug Offences 2015-2024",
+  "width": 350,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/drug_bar.csv"
   },
@@ -39,23 +40,22 @@
           "Prescription"
         ],
         "range": [
-            "#4F7942",
-            "#CCCC00",
-            "#0080FF",
-            "#fc8d62",
-            "#8da0cb",
-            "#DE3163"
+          "#4F7942",
+          "#CCCC00",
+          "#0080FF",
+          "#fc8d62",
+          "#8da0cb",
+          "#DE3163"
         ]
       },
       "legend": null
-
     },
     "opacity": {
       "condition": { "param": "type_highlight", "value": 1 },
       "value": 0.4
     },
     "tooltip": [
-      { "field": "Drug Type", "type": "nominal"},
+      { "field": "Drug Type", "type": "nominal" },
       {
         "field": "Total Offences",
         "type": "quantitative",
