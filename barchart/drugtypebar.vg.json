@@ -29,6 +29,24 @@
     "color": {
       "field": "Drug Type",
       "type": "nominal",
+      "scale": {
+        "domain": [
+          "Cannabis",
+          "Depressants",
+          "Methylamphetamine",
+          "Other Stimulants",
+          "Other/Unclassified",
+          "Prescription"
+        ],
+        "range": [
+            "#4F7942",
+            "#CCCC00",
+            "#0080FF",
+            "#fc8d62",
+            "#8da0cb",
+            "#DE3163"
+        ]
+      },
       "legend": null
 
     },
