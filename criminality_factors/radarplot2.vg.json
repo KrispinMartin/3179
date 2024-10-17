@@ -135,7 +135,7 @@
                 "y": {"value": 0},
                 "x2": {"signal": "radius * cos(scale('angular', datum.category))"},
                 "y2": {"signal": "radius * sin(scale('angular', datum.category))"},
-                "stroke": {"value": "lightgray"},
+                "stroke": {"value": "black"},
                 "strokeWidth": {"value": 1}
               }
             }

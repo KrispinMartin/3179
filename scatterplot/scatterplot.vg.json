@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A scatterplot showing criminality vs. resilience index.",
-  "width": "container",
+  "width": 650,
   "height": 400,
-  "title": "Resilience vs. Criminality around the World",
+  "background": "transparent",
   "data": {
     "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/scatterplot.csv"
   },
