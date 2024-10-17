@@ -5,15 +5,6 @@
   "padding": 5,
   "signals": [
     {
-      "name": "selectView",
-      "value": "squarify",
-      "bind": {
-        "input": "select",
-        "options": ["squarify", "binary"],
-        "name": "View: "
-      }
-    },
-    {
       "name": "selectedYear",
       "value": 2015,
       "bind": {
@@ -40,7 +31,7 @@
         {
           "type": "treemap",
           "field": "Total Offences",
-          "method": { "signal": "selectView" },
+          "method": "binary",
           "ratio": 0.2,
           "paddingInner": 1,
           "size": [{ "signal": "width" }, { "signal": "height" }]
@@ -57,7 +48,7 @@
       "range": [
         "#66c2a5",
         "#fc8d62",
-        "#ffd92f",
+        "#8a7515",
         "#e78ac3",
         "#a6d854",
         "#8da0cb "
