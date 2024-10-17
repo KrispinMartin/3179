@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Drug Offences 2015-2024",
+  "data": {
+    "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/drug_bar.csv"
+  },
+  "params": [
+    {
+      "name": "type_highlight",
+      "select": {
+        "type": "point",
+        "fields": ["Drug Types"]
+      }
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Drug Types",
+      "type": "nominal",
+      "title": "Drug Type",
+      "sort": "-x"
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Total Offences",
+      "type": "quantitative",
+      "title": "Total Offences"
+    },
+    "color": {
+      "field": "Drug Types",
+      "type": "nominal",
+      "legend": null
+
+    },
+    "opacity": {
+      "condition": { "param": "type_highlight", "value": 1 },
+      "value": 0.4
+    },
+    "tooltip": [
+      { "field": "Drug Types", "type": "nominal", "title": "Drug Type" },
+      {
+        "field": "Total Offences",
+        "type": "quantitative",
+        "title": "Total Offences",
+        "format": ","
+      }
+    ]
+  }
+}
