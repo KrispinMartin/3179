@@ -1,8 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Criminality Score of Countries",
-  "width": 1000,
-  "height": 600,
+  "title": "2023 Criminality Scores",
+  "width": 800,
+  "height": 450,
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_110m_admin_0_countries.json",
     "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
@@ -51,8 +56,8 @@
           "field": "geo.['Criminality 2023']",
           "type": "quantitative",
           "scale": {
-            "type": "sequential",
-            "domain": [2, 4, 6, 8, 10],
+            "type": "threshold",
+            "domain": [4, 5, 6, 7, 10],
             "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
           },
           "legend": { "title": "Criminality Score" }
@@ -82,27 +87,13 @@
         ]
       }
     },
+    
     {
       "data": {
         "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_110m_graticules_30.json",
         "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
       },
       "mark": { "type": "geoshape", "fill": null, "stroke": "grey" }
-    },
-    {
-      "data": {
-        "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_110_wgs84_bounding_box.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ne_110m_wgs84_bounding_box"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "black",
-        "stroke": "black",
-        "strokeWidth": 10
-      }
     }
   ]
 }
