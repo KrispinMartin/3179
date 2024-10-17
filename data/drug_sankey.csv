@@ -5,15 +5,15 @@ C12 Drug trafficking,Methylamphetamine,17279
 C12 Drug trafficking,Other Stimulants,7359
 C12 Drug trafficking,Other/Unclassified,4361
 C12 Drug trafficking,Prescription,1122
-C31 Drug use,Cannabis,2692
-C31 Drug use,Depressants,691
-C31 Drug use,Methylamphetamine,1899
-C31 Drug use,Other Stimulants,1402
-C31 Drug use,Other/Unclassified,475
-C31 Drug use,Prescription,192
 C32 Drug possession,Cannabis,85100
 C32 Drug possession,Depressants,18602
 C32 Drug possession,Methylamphetamine,56926
 C32 Drug possession,Other Stimulants,24140
 C32 Drug possession,Other/Unclassified,19778
 C32 Drug possession,Prescription,38448
+C31 Drug use,Cannabis,2692
+C31 Drug use,Depressants,691
+C31 Drug use,Methylamphetamine,1899
+C31 Drug use,Other Stimulants,1402
+C31 Drug use,Other/Unclassified,475
+C31 Drug use,Prescription,192
