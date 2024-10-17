@@ -1,125 +1,129 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 700,
-    "height": 600,
-    "config": {
-      "view": {
-        "stroke": "transparent"
-      }
-    },
-    "projection": { "type": "mercator" },
-    "params": [
-      {
-        "name": "cybercrime_select",
-        "bind": {
-          "input": "select",
-            "options": [
-                "Total_Cybercrimes",
-                "Personal_Fraud",
-                "Online_Impersonation",
-                "Card_Fraud",
-                "Identity_Theft",
-                "Scams"
-            ],
-            "labels":[
-                "Show All",
-                "Personal Fraud",
-                "Online Impersonation",
-                "Card Fraud",
-                "Identity Theft",
-                "Scams"
-            ],
-            "name": "Select Cybercrime: "
-        },
-        "value": "Total_Cybercrimes"
-      }
-    ],
-    "data": {
-      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/longcybercrimes.csv"
-    },
-    "transform": [
-      {
-        "lookup": "State",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/ausmap/ne_50m_admin_1_states_provinces.topojson",
-            "format": {
-              "type": "topojson",
-              "feature": "ne_50m_admin_1_states_provinces"
-            }
-          },
-          "key": "properties.name"
-        },
-        "as": "geo"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 600,
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "projection": { "type": "mercator" },
+  "params": [
+    {
+      "name": "cybercrime_select",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Total_Cybercrimes",
+          "Personal_Fraud",
+          "Online_Impersonation",
+          "Card_Fraud",
+          "Identity_Theft",
+          "Scams"
+        ],
+        "labels": [
+          "Show All",
+          "Personal Fraud",
+          "Online Impersonation",
+          "Card Fraud",
+          "Identity Theft",
+          "Scams"
+        ],
+        "name": "Select Cybercrime: "
       },
-      {
-        "filter": "datum.Cybercrime_Type == cybercrime_select"
-      }
-    ],
-    "layer": [
-      {
-        "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 1 },
-        "encoding": {
-          "shape": {
-            "field": "geo",
-            "type": "geojson"
+      "value": "Total_Cybercrimes"
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/longcybercrimes.csv"
+  },
+  "transform": [
+    {
+      "lookup": "State",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/ausmap/ne_50m_admin_1_states_provinces.topojson",
+          "format": {
+            "type": "topojson",
+            "feature": "ne_50m_admin_1_states_provinces"
+          }
+        },
+        "key": "properties.name"
+      },
+      "as": "geo"
+    },
+    {
+      "filter": "datum.Cybercrime_Type == cybercrime_select"
+    }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 1 },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "Value",
+          "type": "quantitative",
+          "legend": {
+            "title": "Experiences per 1,000",
+            "orient": "top-left",
+            "titleAnchor": "end",
+            "titleAlign": "right"
           },
-          "color": {
+          "scale": {
+            "type": "sequential",
+            "range": [
+              "#edf8fb",
+              "#bfd3e6",
+              "#9ebcda",
+              "#8c96c6",
+              "#8856a7",
+              "#810f7c",
+              "a50f15"
+            ]
+          }
+        },
+        "opacity": { "value": 0.85 },
+        "tooltip": [
+          { "field": "State", "type": "nominal", "title": "State" },
+          {
+            "field": "cybercrime_select",
+            "type": "nominal",
+            "title": "Cyber-crime"
+          },
+          {
             "field": "Value",
             "type": "quantitative",
-            "legend": { "title": "Experiences per 1,000", "orient": "top-left"},
-            "scale": {
-              "type": "sequential",
-              "range": [
-                "#edf8fb",
-                "#bfd3e6",
-                "#9ebcda",
-                "#8c96c6",
-                "#8856a7",
-                "#810f7c",
-                "a50f15"
-              ]
-            }
-          },
-          "opacity": { "value": 0.85},
-          "tooltip": [
-            { "field": "State", "type": "nominal", "title": "State" },
-            {
-              "field": "cybercrime_select",
-              "type": "nominal",
-              "title": "Cyber-crime"
-            },
-            {
-              "field": "Value",
-              "type": "quantitative",
-              "title": "Experiences per 1,000",
-              "format": ".1f"
-            }
-          ]
-        }
-      },
-      {
-        "mark": {
-          "type": "text",
-          "fontSize": 10.5,
-          "color": "black",
-          "fontWeight": "bold",
-          "align": "center",
-          "dy": -10,
-          "dx": -3
-        },
-        "encoding": {
-          "text": { "field": "geo.properties.name", "type": "nominal" },
-          "longitude": {
-            "field": "geo.properties.longitude",
-            "type": "quantitative"
-          },
-          "latitude": {
-            "field": "geo.properties.latitude",
-            "type": "quantitative"
+            "title": "Experiences per 1,000",
+            "format": ".1f"
           }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10.5,
+        "color": "black",
+        "fontWeight": "bold",
+        "align": "center",
+        "dy": -10,
+        "dx": -3
+      },
+      "encoding": {
+        "text": { "field": "geo.properties.name", "type": "nominal" },
+        "longitude": {
+          "field": "geo.properties.longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "geo.properties.latitude",
+          "type": "quantitative"
         }
       }
-    ]
-  }
-  
+    }
+  ]
+}
