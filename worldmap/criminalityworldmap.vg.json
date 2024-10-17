@@ -4,12 +4,12 @@
   "width": 1000,
   "height": 600,
   "data":{"url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/choroplethmap.csv"},
-  "projection": {"type": "equalEarth", "rotate": [-150, 0, 0]},
+  "projection": {"type": "equalEarth", "rotate": [0, 0, 0]},
   "layer":[
       {
           "data": {
           "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/worldmap/ne_110m.json",
-          "format": {"type": "topojson", "feature": "ne_110m_ocean"}
+          "format": {"type": "topojson", "feature": "ne_110m_ocean.Ocean"}
           },
           "mark": {"type": "geoshape", "fill": "skyblue"}
       },
@@ -28,6 +28,7 @@
           },
           "mark": {"type": "geoshape", "fill": "white", "stroke": "darkslategrey", "strokeWidth": 1}
       },
+      
 
       {
           "data": {
