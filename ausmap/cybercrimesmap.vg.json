@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
+    "width": 700,
     "height": 600,
     "config": {
       "view": {
@@ -30,7 +30,8 @@
                 "Scams"
             ],
             "name": "Select Cybercrime: "
-        }
+        },
+        "value": "Total_Cybercrimes"
       }
     ],
     "data": {
@@ -50,6 +51,9 @@
           "key": "properties.name"
         },
         "as": "geo"
+      },
+      {
+        "filter": "datum.Cybercrime_Type == cybercrime_select"
       }
     ],
     "layer": [
@@ -63,6 +67,7 @@
           "color": {
             "field": "Value",
             "type": "quantitative",
+            "legend": { "title": "Experiences per 1,000", "orient": "top-left"},
             "scale": {
               "type": "sequential",
               "range": [
@@ -81,8 +86,14 @@
             { "field": "State", "type": "nominal", "title": "State" },
             {
               "field": "cybercrime_select",
-              "type": "quantitative",
+              "type": "nominal",
               "title": "Cyber-crime"
+            },
+            {
+              "field": "Value",
+              "type": "quantitative",
+              "title": "Experiences per 1,000",
+              "format": ".1f"
             }
           ]
         }
