@@ -18,14 +18,14 @@
                 {"Country": "Australia", "category": "Arms trafficking", "value": 3.50},
                 {"Country": "Australia", "category": "Heroin trade", "value": 3.50},
                 {"Country": "Australia", "category": "Cyber-dependent crimes", "value": 7.50},
-                {"Country": "Australia", "category": "Financial crimes", "value": 7.00},
-                {"Country": "Australia", "category": "Mafia-style groups", "value": 4.50},
+                {"Country": "Australia", "category": "Synthetic drug trade", "value": 7.00},
+                {"Country": "Australia", "category": "Cocaine Trade", "value": 6.50},
                 {"Country": "Rest of World", "category": "Human trafficking", "value": 5.83},
                 {"Country": "Rest of World", "category": "Arms trafficking", "value": 5.22},
                 {"Country": "Rest of World", "category": "Heroin trade", "value": 4.08},
                 {"Country": "Rest of World", "category": "Cyber-dependent crimes", "value": 4.54},
-                {"Country": "Rest of World", "category": "Financial crimes", "value": 5.97},
-                {"Country": "Rest of World", "category": "Mafia-style groups", "value": 4.02}
+                {"Country": "Rest of World", "category": "Synthetic drug trade", "value": 4.94},
+                {"Country": "Rest of World", "category": "Cocaine trade", "value": 4.81}
               ]
           },
           {
@@ -61,7 +61,7 @@
             "name": "color",
             "type": "ordinal",
             "domain": ["Australia", "Rest of World"],
-            "range": ["red", "#1f77b4"]
+            "range": ["#8856a7", "skyblue"]
           }
         ],
       

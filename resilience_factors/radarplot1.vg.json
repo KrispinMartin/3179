@@ -61,7 +61,7 @@
         "name": "color",
         "type": "ordinal",
         "domain": ["Australia", "Rest of World"],
-        "range": ["red", "#1f77b4"]
+        "range": ["#8856a7", "skyblue"]
       }
     ],
 
