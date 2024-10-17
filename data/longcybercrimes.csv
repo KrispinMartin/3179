@@ -1,0 +1,49 @@
+State,Cybercrime_Type,Value
+New South Wales,Total_Cybercrimes,198.4
+New South Wales,Personal_Fraud,87.19475878
+New South Wales,Online_Impersonation,15.44967242
+New South Wales,Card_Fraud,68.76712329
+New South Wales,Identity_Theft,7.00416915
+New South Wales,Scams,20.0238237
+Victoria,Total_Cybercrimes,207
+Victoria,Personal_Fraud,90.88128186
+Victoria,Online_Impersonation,16.12527312
+Victoria,Card_Fraud,70.86671522
+Victoria,Identity_Theft,9.29351784
+Victoria,Scams,19.79606701
+Queensland,Total_Cybercrimes,197.9
+Queensland,Personal_Fraud,87.99126638
+Queensland,Online_Impersonation,14.77438137
+Queensland,Card_Fraud,70.01455604
+Queensland,Identity_Theft,7.16885007
+Queensland,Scams,17.99490539
+South Australia,Total_Cybercrimes,187.3
+South Australia,Personal_Fraud,80.05376344
+South Australia,Online_Impersonation,20.2688172
+South Australia,Card_Fraud,59.62365591
+South Australia,Identity_Theft,7.79569892
+South Australia,Scams,19.51612903
+Western Australia,Total_Cybercrimes,170.8
+Western Australia,Personal_Fraud,74.0880936
+Western Australia,Online_Impersonation,16.86166552
+Western Australia,Card_Fraud,55.40261528
+Western Australia,Identity_Theft,6.60701996
+Western Australia,Scams,17.85960083
+Tasmania,Total_Cybercrimes,183.2
+Tasmania,Personal_Fraud,79.93019197
+Tasmania,Online_Impersonation,19.19720768
+Tasmania,Card_Fraud,61.43106457
+Tasmania,Identity_Theft,6.28272251
+Tasmania,Scams,16.40488656
+Northern Territory,Total_Cybercrimes,165.9
+Northern Territory,Personal_Fraud,73.80952381
+Northern Territory,Online_Impersonation,14.28571429
+Northern Territory,Card_Fraud,53.17460317
+Northern Territory,Identity_Theft,7.93650794
+Northern Territory,Scams,16.66666667
+Australian Capital Territory,Total_Cybercrimes,219.6
+Australian Capital Territory,Personal_Fraud,95.94882729
+Australian Capital Territory,Online_Impersonation,17.48400853
+Australian Capital Territory,Card_Fraud,80.81023454
+Australian Capital Territory,Identity_Theft,5.97014925
+Australian Capital Territory,Scams,19.40298507

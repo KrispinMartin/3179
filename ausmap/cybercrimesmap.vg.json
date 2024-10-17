@@ -14,11 +14,11 @@
         "bind": {
           "input": "select",
             "options": [
-                null,
-                "Personal Fraud",
-                "Online Impersonation",
-                "Card Fraud",
-                "Identity Theft",
+                "Total_Cybercrimes",
+                "Personal_Fraud",
+                "Online_Impersonation",
+                "Card_Fraud",
+                "Identity_Theft",
                 "Scams"
             ],
             "labels":[
@@ -34,7 +34,7 @@
       }
     ],
     "data": {
-      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/cybercrimes.csv"
+      "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/longcybercrimes.csv"
     },
     "transform": [
       {
@@ -50,8 +50,7 @@
           "key": "properties.name"
         },
         "as": "geo"
-      },
-      { "filter": "cybercrime_select == null || datum.State == cybercrime_select" }
+      }
     ],
     "layer": [
       {
@@ -62,7 +61,7 @@
             "type": "geojson"
           },
           "color": {
-            "field": "cybercrime_select",
+            "field": "Value",
             "type": "quantitative",
             "scale": {
               "type": "sequential",
@@ -74,7 +73,7 @@
                 "#8856a7",
                 "#810f7c",
                 "a50f15"
-              ]            
+              ]
             }
           },
           "opacity": { "value": 0.85},
@@ -82,7 +81,7 @@
             { "field": "State", "type": "nominal", "title": "State" },
             {
               "field": "cybercrime_select",
-              "type": "nominal",
+              "type": "quantitative",
               "title": "Cyber-crime"
             }
           ]
