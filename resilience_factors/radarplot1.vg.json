@@ -20,12 +20,12 @@
           {"Country": "Australia", "category": "Law enforcement", "value": 8.00},
           {"Country": "Australia", "category": "Victim and witness support", "value": 6.00},
           {"Country": "Australia", "category": "Government transparency", "value": 8.00},
-          {"Country": "Rest of World", "category": "Prevention", "value": 4.54},
-          {"Country": "Rest of World", "category": "National policies and laws", "value": 5.47},
-          {"Country": "Rest of World", "category": "Judicial / Detention", "value": 4.52},
-          {"Country": "Rest of World", "category": "Law enforcement", "value": 4.85},
-          {"Country": "Rest of World", "category": "Victim and witness support", "value": 4.23},
-          {"Country": "Rest of World", "category": "Government transparency", "value": 4.34}
+          {"Country": "Rest of the World", "category": "Prevention", "value": 4.54},
+          {"Country": "Rest of the World", "category": "National policies and laws", "value": 5.47},
+          {"Country": "Rest of the World", "category": "Judicial / Detention", "value": 4.52},
+          {"Country": "Rest of the World", "category": "Law enforcement", "value": 4.85},
+          {"Country": "Rest of the World", "category": "Victim and witness support", "value": 4.23},
+          {"Country": "Rest of the World", "category": "Government transparency", "value": 4.34}
         ]
       },
       {
@@ -60,8 +60,8 @@
       {
         "name": "color",
         "type": "ordinal",
-        "domain": ["Australia", "Rest of World"],
-        "range": ["#984ea3", "skyblue"]
+        "domain": ["Australia", "Rest of the World"],
+        "range": ["#984ea3", "#118a41"]
       }
     ],
 

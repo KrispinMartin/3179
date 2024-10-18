@@ -20,12 +20,12 @@
                 {"Country": "Australia", "category": "Cyber-crimes", "value": 7.50},
                 {"Country": "Australia", "category": "Synthetic drug trade", "value": 7.00},
                 {"Country": "Australia", "category": "Cocaine trade", "value": 6.50},
-                {"Country": "Rest of World", "category": "Human trafficking", "value": 5.83},
-                {"Country": "Rest of World", "category": "Arms trafficking", "value": 5.22},
-                {"Country": "Rest of World", "category": "Heroin trade", "value": 4.08},
-                {"Country": "Rest of World", "category": "Cyber-crimes", "value": 4.54},
-                {"Country": "Rest of World", "category": "Synthetic drug trade", "value": 4.94},
-                {"Country": "Rest of World", "category": "Cocaine trade", "value": 4.81}
+                {"Country": "Rest of the World", "category": "Human trafficking", "value": 5.83},
+                {"Country": "Rest of the World", "category": "Arms trafficking", "value": 5.22},
+                {"Country": "Rest of the World", "category": "Heroin trade", "value": 4.08},
+                {"Country": "Rest of the World", "category": "Cyber-crimes", "value": 4.54},
+                {"Country": "Rest of the World", "category": "Synthetic drug trade", "value": 4.94},
+                {"Country": "Rest of the World", "category": "Cocaine trade", "value": 4.81}
               ]
           },
           {
@@ -60,8 +60,8 @@
           {
             "name": "color",
             "type": "ordinal",
-            "domain": ["Australia", "Rest of World"],
-            "range": ["#984ea3", "skyblue"]
+            "domain": ["Australia", "Rest of the World"],
+            "range": ["#984ea3", "#118a41"]
           }
         ],
       

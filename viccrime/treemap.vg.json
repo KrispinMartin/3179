@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 700,
+  "width": 600,
   "height": 400,
   "padding": 5,
   "background": "transparent",
   "signals": [
     {
       "name": "selectedYear",
-      "value": 2015,
+      "value": 2024,
       "bind": {
         "input": "range",
         "min": 2015,
