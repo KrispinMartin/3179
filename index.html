@@ -15,7 +15,11 @@
     <title> Crime on all Levels </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <div class="page">
     <div class="frames">
@@ -25,22 +29,18 @@
         <div class="introFrame">
             <div class="pure-g">
                 <div class="pure-u-md-1-2">
-                    <div class="discussion">
-                        <p> Crime on all Levels is a data visualisation project that aims to provide a comprehensive overview of crime statistics in Australia. 
-                            The project is divided into four sections, each of which focuses on a different aspect of crime in Australia. The first section 
-                            provides an overview of crime statistics in Australia, including the number of crimes committed in each state and territory, the 
-                            types of crimes committed, and the age 
-                        </p>
-                    </div>
+                    <p> Crime on all Levels is a data visualisation project that aims to provide a comprehensive overview of crime statistics in Australia. 
+                        The project is divided into four sections, each of which focuses on a different aspect of crime in Australia. The first section 
+                        provides an overview of crime statistics in Australia, including the number of crimes committed in each state and territory, the 
+                        types of crimes committed, and the age 
+                    </p>
                 </div>
                 <div class="pure-u-md-1-2">
-                    <div class="discussion">
-                        <p> of the offenders. The second section focuses on the relationship between crime and social factors such as unemployment, 
-                            education, and income. The third section looks at the impact of crime on the criminal justice system, including the number of 
-                            prisoners in Australia and the cost of incarcerating them. The final section examines the effectiveness of crime prevention 
-                            strategies in Australia, including the number of police officers per capita and the crime clearance rate.
-                        </p>
-                    </div>
+                    <p> of the offenders. The second section focuses on the relationship between crime and social factors such as unemployment, 
+                        education, and income. The third section looks at the impact of crime on the criminal justice system, including the number of 
+                        prisoners in Australia and the cost of incarcerating them. The final section examines the effectiveness of crime prevention 
+                        strategies in Australia, including the number of police officers per capita and the crime clearance rate.
+                    </p>
                 </div>
             </div>
         </div>
@@ -52,26 +52,29 @@
         <div class="worldmapFrame">
             <div class="pure-g">
                 <div class="pure-u-1-1">
-                        <div id="world_map">
+                    <h3 class="chartTitle">The 2023 Global Criminality Index</h3> 
+                </div>
+                <div class="pure-u-1-1">
+                    <div id="world_map">
                     </div>
                 </div>
             </div>
         </div>
         <div class="worldmapDiscussion">
             <div class="pure-g">
-                <div class="pure-u-md-1-2">
+                <div class="pure-u-1-2">
                     <div class="discussion">
                         <p>
                             The <b><span style="color: #a50f15;">Criminality Index</span></b> is an “assessment of overall organised crime levels in a country.” 
                             It is made up of two main components, each of which has several subfactors:
-                        <ul>
-                            <li><strong>Criminal Actors</strong> – The structure and influence of different types of criminal organisations.</li>
-                            <li><strong>Criminal Markets</strong> – Consists of all stages of illicit trade of both commodities or people.</li>
-                        </ul>
                         </p>
+                        <ul>
+                            <li><strong>Criminal Actors</strong> – <em>The structure and influence of different types of criminal organisations.</em></li>
+                            <li><strong>Criminal Markets</strong> – <em>Consists of all stages of illicit trade of both commodities or people.</em></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="pure-u-md-1-2">
+                <div class="pure-u-1-2">
                     <div class="discussion">
                         <p> Some of the most dangerous regions currently are <b><span style="color: #a50f15;">Middle Africa</span></b> and the <b><span style="color: #a50f15;">Middle East</span></b>. The Nordic region of the world remains undoubtedly 
                             the safest of all, whilst <b><span style="color: #984ea3;">Australia</span></b> performs quite well with a score of <b>4.00</b> in 2023.
@@ -82,6 +85,9 @@
         </div>
         <div class="scatterplotFrame">
             <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h3 class="chartTitle">2023 Criminality Index vs Resilience Index</h3> 
+                </div>
                 <div class="pure-u-md-3-5">
                     <div id="scatter_plot">
                     </div>
@@ -90,8 +96,8 @@
                     <div class="discussion">
                         <p> The flip side of the <b><span style="color: #a50f15;">Criminality</span></b> index is the <b><span style="color: #0e78ac;">Resilience</span></b> index. Others combined with the factors below measure a country's ability 
                             to withstand and disrupt organised criminal activities via its own socio-political landscape. <b><span style="color: #984ea3;">Australia</span></b> in that regard has a very 
-                            formidable social structure in place with a 2023 score of 7.38 ranking <b>19th</b> of 193 countries. There exists a clear linear 
-                            relationship between the criminality index and the resilience index. By far and away <b><span style="color: #a50f15;">Myanmar</span></b> is one of the most dangerous countries in 
+                            formidable social structure in place with a 2023 score of 7.38 ranking <b>19th</b> of 193 countries. <br><br>
+                            There exists a clear linear relationship between the criminality index and the resilience index. By far and away <b><span style="color: #a50f15;">Myanmar</span></b> is one of the most dangerous countries in 
                             the world, ranking <b>1st</b> in <b><span style="color: #a50f15;">Criminality</span></b> and <b>3rd worst</b> in <b><span style="color: #0e78ac;">Resilience</span></b>. 
                         </p>
                     </div>
@@ -101,17 +107,17 @@
         <div class="radarplotFrame">
             <div class="pure-g">
                 <div class="pure-u-md-1-2">
-                    <div class="2-left">
-                        <h3> Criminality Factors </h3>
-                        <div id="radar_plot2">
-                        </div>
+                    <h3> Criminality Factors </h3>
+                </div>
+                <div class="pure-u-md-1-2">
+                    <h3> Resilience Factors </h3>
+                </div>
+                <div class="pure-u-md-1-2">
+                    <div id="radar_plot2">
                     </div>
                 </div>
                 <div class="pure-u-md-1-2">
-                    <div class="2-right">
-                        <h3> Resilience Factors </h3>
-                        <div id="radar_plot1">
-                        </div>
+                    <div id="radar_plot1">
                     </div>
                 </div>
             </div>
@@ -128,8 +134,8 @@
                 </div>
                 <div class="pure-u-md-1-2">
                     <div class="discussion">
-                        <p> Some of the most dangerous regions currently are Middle Africa and the Middle East. The Nordic region of the world remains undoubtedly 
-                            the safest of all, whilst Australia performs quite well with a score of 4.00 in 2023.
+                        <p> <b><span style="color: #984ea3;">Australia</span></b> significantly outperforms the average resilience factor scores under all categories of the <b><span style="color: skyblue;">rest of the world</span></b>. <b><span style="color: #984ea3;">Australia </span></b>
+                            ranks in the top 10 for government transparency, international cooperation, national policies, judicial/detention and law enforcement. 
                         </p>
                     </div>
                 </div>

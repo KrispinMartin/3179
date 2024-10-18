@@ -1,50 +1,132 @@
-.titleFrame {
-    text-align: center;
-    background-color: #bebebe;
-    padding: 30px 0;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    width: 100%;
-    max-width: 1200px; 
-    margin: 0 auto; 
-}
-
 body {
-    background-color: #ffb3b3; 
+    background: linear-gradient(to left,#7691e8 ,#c0dcff,#7691e8 ); 
     margin: 0; 
     padding: 0; 
 }
 
 .page {
-    background-color: #fff0db; 
+    background-color: #f5eadb; 
     border: 2px solid black; 
-    width: 90%; 
+    width: 95%; 
     max-width: 1200px; 
-    padding: 10px; 
-    margin: 20px auto; 
+    padding: 20px; 
+    margin: 25px auto; 
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
     box-sizing: border-box; 
 }
 
-p {
-    line-height: 1.5; 
-    font-size: 17px;
-    padding: 15px;   
-    margin: 0 auto; 
-    border: 2px ;
-
+.frames {
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    margin: auto; 
 }
 
-ul {
-    line-height: 1.5; 
-    font-size: 17px;
-    margin: 0 auto; 
-
+.titleFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #edc48a;
+    max-width: 1200px;
+    height: 130px;
+    margin: auto;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+.subheadingFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #f2d9b7;
+    margin: auto;
+    transition: transform 0.3s ease;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subheadingFrame:hover{
+    transform: translateY(-5px);
+}
+
 
 .worldmapFrame {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    padding-right: 10%;
+    width: 100%;
+}
+
+.worldmapDiscussion {
+    padding-bottom: 20px;
+}
+
+.pure-g {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    max-width: 1100px;
+    text-decoration: underline;
+
+}
+
+p {
+    line-height: 1.5; 
+    font-size: 19px;
+    margin: auto; 
+    padding: 20px;
+}
+
+.inter-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+ul {
+    line-height: 1.5; 
+    padding-left: 60px;   
+    padding-right: 15px;   
+    border: 2px ;
+    font-size: 19px;
+    margin: 0 auto; 
+    width: 85%;
+    border-radius: 20px;
+}
+
+.inter-ul {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.scatterplotFrame{
+    padding-bottom: 20px;
+}
+
+.vega-embed {
+    margin: 0 auto; /* Center the element horizontally */
+    align-items: center; /* Ensure any inner text or content is centered */
 }

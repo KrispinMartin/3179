@@ -1,9 +1,9 @@
       {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
         "description": "A radar chart example, showing multiple dimensions in a radial layout.",
-        "width": 575,
-        "height": 575,
-        "padding": 115,
+        "width": 550,
+        "height": 550,
+        "padding": 40,
         "autosize": {"type": "none", "contains": "padding"},
       
         "signals": [
@@ -17,13 +17,13 @@
                 {"Country": "Australia", "category": "Human trafficking", "value": 3.50},
                 {"Country": "Australia", "category": "Arms trafficking", "value": 3.50},
                 {"Country": "Australia", "category": "Heroin trade", "value": 3.50},
-                {"Country": "Australia", "category": "Cyber-dependent crimes", "value": 7.50},
+                {"Country": "Australia", "category": "Cyber-crimes", "value": 7.50},
                 {"Country": "Australia", "category": "Synthetic drug trade", "value": 7.00},
-                {"Country": "Australia", "category": "Cocaine Trade", "value": 6.50},
+                {"Country": "Australia", "category": "Cocaine trade", "value": 6.50},
                 {"Country": "Rest of World", "category": "Human trafficking", "value": 5.83},
                 {"Country": "Rest of World", "category": "Arms trafficking", "value": 5.22},
                 {"Country": "Rest of World", "category": "Heroin trade", "value": 4.08},
-                {"Country": "Rest of World", "category": "Cyber-dependent crimes", "value": 4.54},
+                {"Country": "Rest of World", "category": "Cyber-crimes", "value": 4.54},
                 {"Country": "Rest of World", "category": "Synthetic drug trade", "value": 4.94},
                 {"Country": "Rest of World", "category": "Cocaine trade", "value": 4.81}
               ]
@@ -144,19 +144,19 @@
             "type": "text",
             "name": "key-label",
             "from": {"data": "countries"},
-            "zindex": 1,
+            "zindex": 4,
             "encode": {
               "enter": {
-                "x": {"signal": "(radius + 5) * cos(scale('angular', datum.category))"},
-                "y": {"signal": "(radius + 5) * sin(scale('angular', datum.category))"},
+                "x": {"signal": "(radius - 10) * cos(scale('angular', datum.category))"},
+                "y": {"signal": "(radius + 10) * sin(scale('angular', datum.category))"},
                 "text": {"field": "category"},
                 "align": [
                   {
                     "test": "abs(scale('angular', datum.category)) > PI / 2",
-                    "value": "right"
+                    "value": "center"
                   },
                   {
-                    "value": "left"
+                    "value": "center"
                   }
                 ],
                 "baseline": [

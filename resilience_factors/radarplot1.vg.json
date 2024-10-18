@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "A radar chart example, showing multiple dimensions in a radial layout.",
-    "width": 575,
-    "height": 575,
-    "padding": 115,
+    "width": 550,
+    "height": 550,
+    "padding": 40,
     "autosize": {"type": "none", "contains": "padding"},
   
     "signals": [
@@ -14,18 +14,18 @@
       {
         "name": "table",
         "values": [
-          {"Country": "Australia", "category": "Government transparency", "value": 8.00},
+          {"Country": "Australia", "category": "Prevention", "value": 6.00},
           {"Country": "Australia", "category": "National policies and laws", "value": 8.00},
-          {"Country": "Australia", "category": "Judicial system and detention", "value": 8.00},
+          {"Country": "Australia", "category": "Judicial / Detention", "value": 8.00},
           {"Country": "Australia", "category": "Law enforcement", "value": 8.00},
           {"Country": "Australia", "category": "Victim and witness support", "value": 6.00},
-          {"Country": "Australia", "category": "Prevention", "value": 6.00},
-          {"Country": "Rest of World", "category": "Government transparency", "value": 4.34},
+          {"Country": "Australia", "category": "Government transparency", "value": 8.00},
+          {"Country": "Rest of World", "category": "Prevention", "value": 4.54},
           {"Country": "Rest of World", "category": "National policies and laws", "value": 5.47},
-          {"Country": "Rest of World", "category": "Judicial system and detention", "value": 4.52},
+          {"Country": "Rest of World", "category": "Judicial / Detention", "value": 4.52},
           {"Country": "Rest of World", "category": "Law enforcement", "value": 4.85},
           {"Country": "Rest of World", "category": "Victim and witness support", "value": 4.23},
-          {"Country": "Rest of World", "category": "Prevention", "value": 4.54}
+          {"Country": "Rest of World", "category": "Government transparency", "value": 4.34}
         ]
       },
       {
@@ -167,10 +167,10 @@
             "align": [
               {
                 "test": "abs(scale('angular', datum.category)) > PI / 2",
-                "value": "right"
+                "value": "center"
               },
               {
-                "value": "left"
+                "value": "center"
               }
             ],
             "baseline": [
