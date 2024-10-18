@@ -172,7 +172,7 @@
                 ],
                 "fill": {"value": "black"},
                 "fontWeight": {"value": "bold"},
-                "fontSize": {"value": 10}
+                "fontSize": {"value": 12}
 
               }
             }
