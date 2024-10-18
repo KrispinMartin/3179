@@ -132,8 +132,8 @@ ul {
 }
 
 div[id^="bar_drugs"],div[id^="sankey_drugs"],div[id^="vic_crime"] {
-  display: flex; /* Use flexbox for alignment */
+  display: flex; 
   flex-direction: column;
-  justify-content: center; /* Center align horizontally */
-  align-items: center; /* Center align vertically */
+  justify-content: center;
+  align-items: center; 
 }
