@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "height": 400,
-  "width": 600,
+  "width": 550,
   "data": [
     {
       "name": "rawData",
@@ -163,7 +163,8 @@
         "labels": {
           "update": {"text": {"scale": "stackNames", "field": "value"}}
         }
-      }
+      },
+      "labelFontWeight": "bold"
     },
     {
       "orient": "left",

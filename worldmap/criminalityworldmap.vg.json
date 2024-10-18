@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 1000,
+  "width": 900,
   "height": 450,
   "background": "transparent",
   "config": {
@@ -60,7 +60,7 @@
             "domain": [4, 5, 6, 7, 10],
             "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
           },
-          "legend": { "title": "Criminality Score" }
+          "legend": { "title": "Criminality Score", "orient": "left" }
         },
         "tooltip": [
           {

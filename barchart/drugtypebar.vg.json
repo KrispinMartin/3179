@@ -1,68 +1,81 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 350,
+  "width": 400,
   "height": 400,
   "background": "transparent",
   "data": {
     "url": "https://raw.githubusercontent.com/KrispinMartin/3179/refs/heads/main/data/drug_bar.csv"
   },
-  "params": [
-    {
-      "name": "type_highlight",
-      "select": {
-        "type": "point",
-        "fields": ["Drug Type"]
-      }
-    }
-  ],
-  "mark": "bar",
   "encoding": {
     "y": {
       "field": "Drug Type",
       "type": "nominal",
-      "sort": "-x"
+      "sort": "-x",
+      "axis": null
     },
     "x": {
       "aggregate": "sum",
       "field": "Total Offences",
       "type": "quantitative",
       "title": "Total Offences"
-    },
-    "color": {
-      "field": "Drug Type",
-      "type": "nominal",
-      "scale": {
-        "domain": [
-          "Cannabis",
-          "Depressants",
-          "Methylamphetamine",
-          "Other Stimulants",
-          "Other/Unclassified",
-          "Prescription"
-        ],
-        "range": [
-          "#4F7942",
-          "#CCCC00",
-          "#0080FF",
-          "#fc8d62",
-          "#8da0cb",
-          "#DE3163"
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "params": [
+        {
+          "name": "type_highlight",
+          "select": {
+            "type": "point",
+            "fields": ["Drug Type"]
+          }
+        }
+      ],
+      "encoding": {
+        "color": {
+          "field": "Drug Type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Cannabis",
+              "Depressants",
+              "Methylamphetamine",
+              "Other Stimulants",
+              "Other/Unclassified",
+              "Prescription"
+            ],
+            "range": [
+              "#4F7942",
+              "#CCCC00",
+              "#0080FF",
+              "#fc8d62",
+              "#8da0cb",
+              "#DE3163"
+            ]
+          },
+          "legend": null
+        },
+        "opacity": {
+          "condition": { "param": "type_highlight", "value": 1 },
+          "value": 0.4
+        },
+        "tooltip": [
+          { "field": "Drug Type", "type": "nominal" },
+          {
+            "field": "Total Offences",
+            "type": "quantitative",
+            "title": "Total Offences",
+            "format": ","
+          }
         ]
-      },
-      "legend": null
-    },
-    "opacity": {
-      "condition": { "param": "type_highlight", "value": 1 },
-      "value": 0.4
-    },
-    "tooltip": [
-      { "field": "Drug Type", "type": "nominal" },
-      {
-        "field": "Total Offences",
-        "type": "quantitative",
-        "title": "Total Offences",
-        "format": ","
       }
-    ]
-  }
+    },
+    {
+      "mark": { "type": "text", "align": "right", "baseline": "middle", "dx": -5, "fontWeight":"bold", "fontSize":10},
+      "encoding": {
+        "text": { "field": "Drug Type" }
+      }
+    }
+  ]
 }
