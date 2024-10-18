@@ -15,11 +15,11 @@
       "bind": {
         "input": "select",
         "options": [
-          "Total_Cybercrimes",
-          "Personal_Fraud",
-          "Online_Impersonation",
-          "Card_Fraud",
-          "Identity_Theft",
+          "Total Cybercrimes",
+          "Personal Fraud",
+          "Online Impersonation",
+          "Card Fraud",
+          "Identity Theft",
           "Scams"
         ],
         "labels": [
@@ -96,7 +96,7 @@
         "tooltip": [
           { "field": "State", "type": "nominal", "title": "State" },
           {
-            "field": "cybercrime_select",
+            "field": "Cybercrime_Type",
             "type": "nominal",
             "title": "Cyber-crime"
           },
