@@ -15,11 +15,11 @@
       "bind": {
         "input": "select",
         "options": [
-          "Total Cybercrimes",
-          "Personal Fraud",
-          "Online Impersonation",
-          "Card Fraud",
-          "Identity Theft",
+          "Total_Cybercrimes",
+          "Personal_Fraud",
+          "Online_Impersonation",
+          "Card_Fraud",
+          "Identity_Theft",
           "Scams"
         ],
         "labels": [
